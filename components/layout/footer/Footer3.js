@@ -83,7 +83,7 @@ export default function Footer3() {
                                                         <i className="flaticon-clock" />
                                                     </div>
                                                     <div className="content">
-                                                        <p>Mon – Fri: 8 am – 5 pm, <br />Sat, Sunday: <span>CLOSED</span></p>
+                                                        <p>Mon – Fri: 9 am – 5 pm, <br />Sat, Sunday: <span>CLOSED</span></p>
                                                     </div>
                                                 </li>
                                             </ul>

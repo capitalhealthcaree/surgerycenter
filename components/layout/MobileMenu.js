@@ -33,8 +33,8 @@ export default function MobileMenu() {
                 <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fas fa-angle-down" /></div>
             </li>
             <li><Link href="/contact">Patient Resources</Link></li>
-            <li><Link href="/">About Us</Link></li>
             <li><Link href="/">Contact Us</Link></li>
+            <li><Link href="/">About Us</Link></li>
             <li><Link href="/">Blogs</Link></li>
             </ul>
         </>

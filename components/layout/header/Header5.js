@@ -80,15 +80,6 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSear
                                         <div className="menu-outer">
                                             <MobileMenu />
                                         </div>
-                                        <div className="social-links">
-                                            <ul className="clearfix list-wrap">
-                                                <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
-                                                <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
-                                                <li><Link href="#"><i className="fab fa-instagram" /></Link></li>
-                                                <li><Link href="#"><i className="fab fa-linkedin-in" /></Link></li>
-                                                <li><Link href="#"><i className="fab fa-youtube" /></Link></li>
-                                            </ul>
-                                        </div>
                                     </nav>
                                 </div>
                                 <div className="menu-backdrop" onClick={handleMobileMenu} />
