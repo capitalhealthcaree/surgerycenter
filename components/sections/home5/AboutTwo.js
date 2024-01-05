@@ -55,8 +55,8 @@ export default function AboutTwo() {
                     </li>
                   </ul>
                 </div>
-                <Link href="/about" className="btn transparent-btn">
-                  Get Started With Us
+                <Link href="/appointment/" className="btn transparent-btn">
+                Schedule Appointment
                 </Link>
               </div>
             </div>

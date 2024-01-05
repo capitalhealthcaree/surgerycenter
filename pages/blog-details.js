@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function BlogDetails() {
     return (
         <>
-            <Layout headerStyle={6} footerStyle={1} breadcrumbTitle="Blog Details">
+            <Layout headerStyle={6} footerStyle={3} breadcrumbTitle="Blog Details">
                 <section className="blog-details-area pt-120 pb-120">
                     <div className="container">
                         <div className="blog-details-wrap">

@@ -13,7 +13,7 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 <div className="header-top-left">
                                     <ul className="list-wrap">
                                         <li><i className="flaticon-location" />256 Avenue, Mark Street, Newyork City</li>
-                                        <li><i className="flaticon-mail" /><Link href="mailto:gerow@gmail.com">gerow@gmail.com</Link></li>
+                                        <li><i className="flaticon-mail" /><Link href="mailto:admin@advancedcaresurgerycenter.com">admin@advancedcaresurgerycenter.com</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -50,22 +50,21 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSear
                                             <li><Link href="/contact">Home</Link></li>
                                                 <li className="active menu-item-has-children"><Link href="#">Medical Procedures</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="/">Anesthesiology</Link></li>
-                                                        <li><Link href="/index-2">General Surgery</Link></li>
-                                                        <li><Link href="/index-3">Orthopedic Surgery</Link></li>
-                                                        <li><Link href="/index-4">Otorhinolaryngology (ENT)</Link></li>
-                                                        <li><Link href="/index-5">Pain Management</Link></li>
+                                                        <li><Link href="/anesthesiology/">Anesthesiology</Link></li>
+                                                        <li><Link href="/general-surgery/">General Surgery</Link></li>
+                                                        <li><Link href="/orthopedic-surgery/">Orthopedic Surgery</Link></li>
+                                                        <li><Link href="/otorhinolaryngology-ent/">Otorhinolaryngology (ENT)</Link></li>
+                                                        <li><Link href="/pain-management/">Pain Management</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li><Link href="/contact">Patient Resources</Link></li>
-                                                <li><Link href="/contact">About Us</Link></li>
-                                                <li><Link href="/contact">Contact Us</Link></li>
-                                                <li><Link href="/contact">Blogs</Link></li>
+                                                <li><Link href="/about/">About Us</Link></li>
+                                                <li><Link href="/blogs">Blogs</Link></li>
                                             </ul>
                                         </div>
                                         <div className="header-action d-none d-md-block">
                                             <ul className="list-wrap">
-                                                <li className="header-btn"><Link href="/contact" className="btn btn-two">Get a Quote</Link></li>
+                                                <li className="header-btn"><Link href="/appointment/" className="btn btn-two">Get a Appointment</Link></li>
                                             </ul>
                                         </div>
                                     </nav>

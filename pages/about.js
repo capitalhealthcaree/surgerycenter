@@ -1,14 +1,11 @@
 import CounterUp from "@/components/elements/CounterUp"
-import SocialToggle from "@/components/elements/SocialToggle"
 import Layout from "@/components/layout/Layout"
-import BrandSlider from "@/components/slider/BrandSlider"
-import TestimonialSlider1 from "@/components/slider/TestimonialSlider1"
 import Link from "next/link"
 
 export default function About() {
     return (
         <>
-            <Layout headerStyle={6} footerStyle={1} breadcrumbTitle="About Us">
+            <Layout headerStyle={6} footerStyle={3} breadcrumbTitle="About Us">
                 <div>
                     <section className="about-area-seven pt-120 pb-120">
                         <div className="container">
@@ -119,103 +116,6 @@ export default function About() {
                             <img src="/assets/img/images/features_shape02.png" alt="" />
                         </div>
                     </section>
-                    {/* features-area-end */}
-                    {/* team-area */}
-                    <section className="team-area-three">
-                        <div className="container">
-                            <div className="row justify-content-center">
-                                <div className="col-lg-6">
-                                    <div className="section-title-two text-center mb-50">
-                                        <span className="sub-title">Expert People</span>
-                                        <h2 className="title">Dedicated Team Members</h2>
-                                        <p>Ever find yourself staring at your computer screen a good consulting slogan to come to mind? Oftentimes.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row justify-content-center">
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                    <div className="team-item-three">
-                                        <div className="team-thumb-three">
-                                            <img src="/assets/img/team/h3_team_img01.png" alt="" />
-                                            <SocialToggle />
-                                        </div>
-                                        <div className="team-content-three">
-                                            <h4 className="title"><Link href="/team-details">Brooklyn Simmons</Link></h4>
-                                            <span>Finance Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                    <div className="team-item-three">
-                                        <div className="team-thumb-three">
-                                            <img src="/assets/img/team/h3_team_img02.png" alt="" />
-                                            <SocialToggle />
-                                        </div>
-                                        <div className="team-content-three">
-                                            <h4 className="title"><Link href="/team-details">Jenny Wilson</Link></h4>
-                                            <span>Finance Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                    <div className="team-item-three">
-                                        <div className="team-thumb-three">
-                                            <img src="/assets/img/team/h3_team_img03.png" alt="" />
-                                            <SocialToggle />
-                                        </div>
-                                        <div className="team-content-three">
-                                            <h4 className="title"><Link href="/team-details">Ronald Richards</Link></h4>
-                                            <span>Finance Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                    <div className="team-item-three">
-                                        <div className="team-thumb-three">
-                                            <img src="/assets/img/team/h3_team_img04.png" alt="" />
-                                            <SocialToggle />
-                                        </div>
-                                        <div className="team-content-three">
-                                            <h4 className="title"><Link href="/team-details">Marvin McKinney</Link></h4>
-                                            <span>Finance Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/* team-area-end */}
-                    {/* testimonial-area */}
-                    <section className="testimonial-area testimonial-bg" data-background="/assets/img/bg/testimonial_bg.jpg">
-                        <div className="container">
-                            <div className="row align-items-center justify-content-center">
-                                <div className="col-lg-5 col-md-8">
-                                    <div className="testimonial-img">
-                                        <img src="/assets/img/images/testimonial_img.jpg" alt="" />
-                                        <div className="review-wrap">
-                                            <img src="/assets/img/icons/rating.svg" alt="" />
-                                            <div className="content">
-                                                <h2 className="title">15k</h2>
-                                                <p>Positive <br /> Review</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-7">
-                                    <div className="testimonial-item-wrap">
-                                        <TestimonialSlider1 />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/* testimonial-area-end */}
-                    {/* brand-area */}
-                    <div className="brand-area-six pt-80 pb-80">
-                        <div className="container">
-                            <BrandSlider />
-                        </div>
-                    </div>
                 </div>
             </Layout>
         </>

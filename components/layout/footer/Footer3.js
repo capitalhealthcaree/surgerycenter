@@ -35,11 +35,11 @@ export default function Footer3() {
                                         <h4 className="fw-title">Menu</h4>
                                         <div className="footer-link">
                                             <ul className="list-wrap">
-                                                <li><Link href="/about">Anesthesiology</Link></li>
-                                                <li><Link href="/contact">General Surgery</Link></li>
-                                                <li><Link href="/contact">Orthopedic Surgery</Link></li>
-                                                <li><Link href="/blog">Otorhinolaryngology</Link></li>
-                                                <li><Link href="/contact">Pain Management</Link></li>
+                                                <li><Link href="/anesthesiology/">Anesthesiology</Link></li>
+                                                <li><Link href="/general-surgery/">General Surgery</Link></li>
+                                                <li><Link href="/orthopedic-surgery/">Orthopedic Surgery</Link></li>
+                                                <li><Link href="/otorhinolaryngology-ent/">Otorhinolaryngology</Link></li>
+                                                <li><Link href="/pain-management/">Pain Management</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -49,10 +49,10 @@ export default function Footer3() {
                                         <h4 className="fw-title">Quick Links</h4>
                                         <div className="footer-link">
                                             <ul className="list-wrap">
-                                                <li><Link href="/contact">About Us</Link></li>
-                                                <li><Link href="/contact">Contact Us</Link></li>
-                                                <li><Link href="/contact">Blogs</Link></li>
-                                                <li><Link href="/contact">FAQ</Link></li>
+                                                <li><Link href="/patient-resources/">Patient Resources</Link></li>
+                                                <li><Link href="/appointment/">Get Appointment</Link></li>
+                                                <li><Link href="/about/">About Us</Link></li>
+                                                <li><Link href="/blogs/">Blogs</Link></li>
                                             </ul>
                                         </div>
                                     </div>
