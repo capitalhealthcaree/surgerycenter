@@ -100,10 +100,12 @@ export default function Footer3() {
                       <ul className="list-wrap">
                         <li>
                           <div className="icon">
-                            <i className="flaticon-pin" />
+                            <i className="flaticon-mail" />
                           </div>
                           <div className="content">
-                            <p>58 Street Commercial Road Fratton, Australia</p>
+                            <Link href="mailto:admin@advancedcaresurgerycenter.com">
+                              admin@advancedcaresurgerycenter.com
+                            </Link>
                           </div>
                         </li>
                         <li>
@@ -114,6 +116,15 @@ export default function Footer3() {
                             <Link href="tel:0123456789">+123 888 9999</Link>
                           </div>
                         </li>
+                        <li>
+                          <div className="icon">
+                            <i className="flaticon-pin" />
+                          </div>
+                          <div className="content">
+                            <p>58 Street Commercial Road Fratton, Australia</p>
+                          </div>
+                        </li>
+
                         <li>
                           <div className="icon">
                             <i className="flaticon-clock" />
