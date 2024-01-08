@@ -1,5 +1,4 @@
 import Layout from "@/components/layout/Layout";
-import Request from "@/components/sections/home5/Request";
 
 export default function ProjectDetails() {
   return (
@@ -328,7 +327,6 @@ export default function ProjectDetails() {
               </div>
             </div>
           </section>
-          <Request />
         </>
       </Layout>
     </>
