@@ -44,7 +44,7 @@ export default function Contact() {
                     </div>
                     <div className="col-md-6">
                       <div className="form-grp">
-                        <input type="text" placeholder="BOB *" />
+                        <input type="text" placeholder="DOB *" />
                       </div>
                     </div>
                     <div className="col-md-12">

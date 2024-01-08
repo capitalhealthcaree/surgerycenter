@@ -4,7 +4,7 @@ import Contact from "@/components/sections/home5/Contact";
 export default function Appointment() {
   return (
     <>
-      <Layout headerStyle={6} footerStyle={3} breadcrumbTitle="Appointment">
+      <Layout headerStyle={6} breadcrumbTitle="Appointment">
         <div>
           <Contact />
           <section className="pb-5">

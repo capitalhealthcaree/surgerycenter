@@ -23,11 +23,7 @@ const faqs = [
 export default function PainManagement() {
   return (
     <>
-      <Layout
-        headerStyle={6}
-        footerStyle={3}
-        breadcrumbTitle="Otorhinolaryngology (ENT)"
-      >
+      <Layout headerStyle={6} breadcrumbTitle="Otorhinolaryngology (ENT)">
         <div>
           <section className="services-details-area pt-120 pb-120">
             <div className="container">
@@ -134,7 +130,7 @@ export default function PainManagement() {
                   </div>
                 </div>
                 <div className="col-29">
-                  <ProcedureDetailPage />
+                  <ProcedureDetailPage slug={"otorhinolaryngology-ent"} />
                 </div>
               </div>
             </div>

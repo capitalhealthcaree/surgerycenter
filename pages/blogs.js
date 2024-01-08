@@ -4,7 +4,7 @@ import Layout from "@/components/layout/Layout";
 export default function Blog() {
   return (
     <>
-      <Layout headerStyle={6} footerStyle={3} breadcrumbTitle="Latest Blog">
+      <Layout headerStyle={6} breadcrumbTitle="Latest Blog">
         <section className="blog-area pt-120 pb-120">
           <div className="container">
             <div className="inner-blog-wrap">

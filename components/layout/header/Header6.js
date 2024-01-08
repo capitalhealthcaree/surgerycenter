@@ -49,8 +49,8 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, isSear
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul className="navigation">
-                                            <li><Link href="/contact">Home</Link></li>
-                                                <li className="active menu-item-has-children"><Link href="#">Medical Procedures</Link>
+                                            <li><Link href="/">Home</Link></li>
+                                                <li className="active menu-item-has-children"><Link href="/medical-procedures">Medical Procedures</Link>
                                                     <ul className="sub-menu">
                                                         <li><Link href="/anesthesiology/">Anesthesiology</Link></li>
                                                         <li><Link href="/general-surgery/">General Surgery</Link></li>

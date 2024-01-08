@@ -23,7 +23,7 @@ const faqs = [
 export default function PainManagement() {
   return (
     <>
-      <Layout headerStyle={6} footerStyle={3} breadcrumbTitle="Anesthesiology">
+      <Layout headerStyle={6} breadcrumbTitle="Anesthesiology">
         <div>
           <section className="services-details-area pt-120 pb-120">
             <div className="container">
@@ -124,7 +124,7 @@ export default function PainManagement() {
                   </div>
                 </div>
                 <div className="col-29">
-                  <ProcedureDetailPage />
+                  <ProcedureDetailPage slug={"anesthesiology"} />
                 </div>
               </div>
             </div>

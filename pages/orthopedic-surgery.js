@@ -22,11 +22,7 @@ const faqs = [
 export default function PainManagement() {
   return (
     <>
-      <Layout
-        headerStyle={6}
-        footerStyle={3}
-        breadcrumbTitle="Orthopedic Surgery"
-      >
+      <Layout headerStyle={6} breadcrumbTitle="Orthopedic Surgery">
         <div>
           <section className="services-details-area pt-120 pb-120">
             <div className="container">
@@ -73,7 +69,9 @@ export default function PainManagement() {
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Spine</h4>
+                            <div className="d-flex justify-content-center">
+                              <h4>Spine</h4>
+                            </div>
                           </div>
                           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="services-thumb-three">
@@ -83,7 +81,9 @@ export default function PainManagement() {
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Hand</h4>
+                            <div className="d-flex justify-content-center">
+                              <h4>Hand</h4>
+                            </div>
                           </div>
                           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="services-thumb-three">
@@ -93,7 +93,9 @@ export default function PainManagement() {
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Hip and knee</h4>
+                            <div className="d-flex justify-content-center">
+                              <h4>Hip and knee</h4>
+                            </div>
                           </div>
                           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="services-thumb-three">
@@ -103,7 +105,9 @@ export default function PainManagement() {
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Foot and ankle</h4>
+                            <div className="d-flex justify-content-center">
+                              <h4>Foot and ankle</h4>
+                            </div>
                           </div>
                           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="services-thumb-three">
@@ -113,7 +117,9 @@ export default function PainManagement() {
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Shoulder and Elbow</h4>
+                            <div className="d-flex justify-content-center">
+                              <h4>Shoulder and Elbow</h4>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -155,7 +161,7 @@ export default function PainManagement() {
                   </div>
                 </div>
                 <div className="col-29">
-                  <ProcedureDetailPage />
+                  <ProcedureDetailPage slug={"orthopedic-surgery"}/>
                 </div>
               </div>
             </div>

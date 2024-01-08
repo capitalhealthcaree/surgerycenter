@@ -22,7 +22,7 @@ const faqs = [
 export default function PainManagement() {
   return (
     <>
-      <Layout headerStyle={6} footerStyle={3} breadcrumbTitle="General Surgery">
+      <Layout headerStyle={6} breadcrumbTitle="General Surgery">
         <div>
           <section className="services-details-area pt-120 pb-120">
             <div className="container">
@@ -84,12 +84,26 @@ export default function PainManagement() {
                           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="services-thumb-three">
                               <img
+                                src="/assets/img/urology.jpg"
+                                alt=""
+                                style={{ marginBottom: "10px" }}
+                              />
+                            </div>
+                            <div className="d-flex justify-content-center">
+                              <h4>Urology</h4>
+                            </div>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div className="services-thumb-three">
+                              <img
                                 src="/assets/img/gynecology.jpg"
                                 alt=""
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Gynecology</h4>
+                            <div className="d-flex justify-content-center">
+                              <h4>Gynecology</h4>
+                            </div>
                           </div>
                           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="services-thumb-three">
@@ -99,8 +113,11 @@ export default function PainManagement() {
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Ophthalmology</h4>
+                            <div className="d-flex justify-content-center">
+                              <h4>Ophthalmology</h4>
+                            </div>
                           </div>
+
                           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="services-thumb-three">
                               <img
@@ -109,7 +126,9 @@ export default function PainManagement() {
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Oral & Maxillofacial surgery</h4>
+                            <div className="d-flex justify-content-center">
+                              <h4>Oral & Maxillofacial surgery</h4>
+                            </div>
                           </div>
                           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div className="services-thumb-three">
@@ -119,17 +138,9 @@ export default function PainManagement() {
                                 style={{ marginBottom: "10px" }}
                               />
                             </div>
-                            <h4>Plastic, Cosmetic and Reconstructive</h4>
-                          </div>
-                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div className="services-thumb-three">
-                              <img
-                                src="/assets/img/urology.jpg"
-                                alt=""
-                                style={{ marginBottom: "10px" }}
-                              />
+                            <div className="d-flex justify-content-center">
+                              <h4>Plastic, Cosmetic and Reconstructive</h4>
                             </div>
-                            <h4>Urology</h4>
                           </div>
                         </div>
                       </div>
@@ -144,7 +155,7 @@ export default function PainManagement() {
                   </div>
                 </div>
                 <div className="col-29">
-                  <ProcedureDetailPage />
+                  <ProcedureDetailPage slug={"general-surgery"}/>
                 </div>
               </div>
             </div>

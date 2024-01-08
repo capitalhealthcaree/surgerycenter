@@ -9,7 +9,7 @@ import Slider from "@/components/sections/home5/Slider";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={5} footerStyle={3}>
+      <Layout headerStyle={5}>
         <Slider />
         <MedicalProcedures />
         <AboutTwo />

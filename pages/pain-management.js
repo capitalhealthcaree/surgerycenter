@@ -2,10 +2,28 @@ import Accordion from "@/components/elements/Accordion";
 import Layout from "@/components/layout/Layout";
 import ProcedureDetailPage from "@/components/procedure-detail-page";
 
+const faqs = [
+  {
+    question1: "What are Corticosteroid Injections?",
+    answer1:
+      "Corticosteroid injections are anti-inflammatory treatments used for conditions like arthritis and sciatica, providing targeted pain relief.",
+  },
+  {
+    question2: "How Do Nerve Blocks Work?",
+    answer2:
+      "Nerve blocks involve injecting anesthesia near specific nerves to temporarily block pain signals, providing relief.",
+  },
+  {
+    question3: "Are These Treatments Safe?",
+    answer3:
+      "While generally safe, these treatments have risks like infection or nerve damage, and are performed under medical supervision.",
+  },
+];
+
 export default function PainManagement() {
   return (
     <>
-      <Layout headerStyle={6} footerStyle={3} breadcrumbTitle="Pain Management">
+      <Layout headerStyle={6} breadcrumbTitle="Pain Management">
         <div>
           <section className="services-details-area pt-120 pb-120">
             <div className="container">
@@ -13,77 +31,158 @@ export default function PainManagement() {
                 <div className="col-71 order-0 order-lg-2">
                   <div className="services-details-wrap">
                     <div className="services-details-content">
-                      <h2 className="title">Marketing Strategy</h2>
+                      <h2 className="title">
+                        Effective Pain Management Strategies
+                      </h2>
                       <p>
-                        when an unknown printer took ar galley offer type year
-                        anddey scrambled make type aewer specimen book bethas
-                        survived not only five when annery unknown printer.eed a
-                        little help from our friends from time to time. Although
-                        we offer the one-stop convenience.
+                        Pain management is essential in healthcare, aiming to
+                        reduce discomfort and improve the quality of life for
+                        individuals with various conditions. Key to this are
+                        image-guided injections and nerve blocks, offering
+                        targeted relief and playing a diagnostic role in
+                        pinpointing pain sources. Corticosteroid injections are
+                        a prime example, used to address conditions like joint
+                        pain, arthritis, and sciatica.
                       </p>
                       <div className="services-details-thumb-two">
                         <img
-                          src="/assets/img/services/services_details05.jpg"
+                          src="/assets/img/pain-management/main.jpg"
                           alt=""
                         />
                       </div>
                       <p>
-                        eed a little help from our friends from time to time.
-                        Although we offer the one-stop convenience of annery
-                        integrated range of legal, financial services under one
-                        roof, there are occasions when our clients areaneed
-                        specia- list advice beyond the scope of our own
-                        expertise. That’s why we’ve developed close working
-                        relationships with a number of strategic partner.
+                        These anti-inflammatory agents are administered directly
+                        to affected areas, utilizing advanced technology for
+                        precision, ensuring effective treatment of inflammation
+                        and irritation. Nerve blocks, another significant
+                        approach, are particularly effective for pain resulting
+                        from inflammatory conditions and nerve compression
+                        syndromes. By interrupting pain signals from specific
+                        nerves, they provide considerable relief. Pain
+                        management specialists integrate these techniques to
+                        help patients resume normal activities and enhance their
+                        overall well-being. The focus is on a balance between
+                        treatment efficacy, safety, and addressing individual
+                        patient needs, guaranteeing personalized and effective
+                        care for each person's unique health situation.
                       </p>
                       <div className="speed-optimized-wrap">
-                        <h4 className="title-two">Speed Optimized</h4>
+                        <h4 className="title-two">Corticosteroid injections</h4>
                         <p>
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen bookhas a not
-                          only five centuries, but also the leap into electronic
-                          typesetting, remaining essentially unchan galley of
-                          type and scrambled it to make a type specimen book.
+                          Corticosteroid injections, often known as steroid
+                          injections, are a pivotal treatment in managing
+                          various conditions. Utilizing precise-placement
+                          technology, these injections deliver anti-inflammatory
+                          medication directly into affected areas, effectively
+                          treating symptoms. They are particularly beneficial
+                          for conditions like joint pain, arthritis, sciatica,
+                          and Inflammatory Bowel Disease (IBD), providing
+                          significant relief and improving patients' quality of
+                          life.This includes:
                         </p>
+                      </div>
+                      <div className="industrial-working-wrap">
+                        <div className="row justify-content-center">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div className="services-thumb-three">
+                              <img
+                                src="/assets/img/pain-management/joint-pain.jpg"
+                                alt=""
+                                style={{ marginBottom: "10px" }}
+                              />
+                            </div>
+                            <div className="d-flex justify-content-center">
+                              <h4>Joint Pain</h4>
+                            </div>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div className="services-thumb-three">
+                              <img
+                                src="/assets/img/pain-management/arthritis.jpg"
+                                alt=""
+                                style={{ marginBottom: "10px" }}
+                              />
+                            </div>
+                            <div className="d-flex justify-content-center">
+                              <h4>Arthritis</h4>
+                            </div>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div className="services-thumb-three">
+                              <img
+                                src="/assets/img/pain-management/sciatica.jpg"
+                                alt=""
+                                style={{ marginBottom: "10px" }}
+                              />
+                            </div>{" "}
+                            <div className="d-flex justify-content-center">
+                              <h4>Sciatica</h4>
+                            </div>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div className="services-thumb-three">
+                              <img
+                                src="/assets/img/pain-management/ibs.jpg"
+                                alt=""
+                                style={{ marginBottom: "10px" }}
+                              />
+                            </div>
+                            <div className="d-flex justify-content-center">
+                              <h4>Inflammatory Bowel Disease</h4>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div className="sd-inner-wrap-five">
                         <div className="row">
-                          <div className="col-50">
-                            <div className="left-side-content">
-                              <h4 className="title-two">Our Business Goal</h4>
-                              <p>
-                                when an unknown printer took are galley type and
-                                scrambled itter to make a type specimen bookhas
-                                a not only five centurie when an unknown printer
-                                took a galley.
-                              </p>
-                            </div>
-                          </div>
-                          <div className="col-50">
+                          <div className="col-100">
                             <div className="right-side-content">
-                              <h4 className="title-two">The Challange</h4>
-                              <p>when an unknown printer took a galley type</p>
+                              <h4 className="title-two">
+                                Nerve Blocks for Pain
+                              </h4>
+                              <p>
+                                Nerve blocks provide targeted pain relief by
+                                blocking signals from specific nerves,
+                                particularly useful in conditions with nerve
+                                compression or inflammation. This method
+                                significantly reduces pain, improving patients'
+                                ability to perform activities. Besides its
+                                therapeutic benefits, nerve blocks serve a
+                                diagnostic purpose, aiding in identifying the
+                                specific nerves responsible for the pain.
+                              </p>
                               <ul className="list-wrap">
                                 <li>
                                   <img
                                     src="/assets/img/icons/check_icon.svg"
                                     alt=""
                                   />
-                                  Commercial Property Insurance
+                                  Directly block pain signals from particular
+                                  nerve groups, providing focused relief.
                                 </li>
                                 <li>
                                   <img
                                     src="/assets/img/icons/check_icon.svg"
                                     alt=""
                                   />
-                                  Budget Friendly Theme
+                                  Especially effective in conditions where
+                                  nerves are compressed or inflamed.
                                 </li>
                                 <li>
                                   <img
                                     src="/assets/img/icons/check_icon.svg"
                                     alt=""
                                   />
-                                  Happy Customers
+                                  Generally a safe, outpatient procedure with
+                                  minimal recovery time.
+                                </li>
+                                <li>
+                                  <img
+                                    src="/assets/img/icons/check_icon.svg"
+                                    alt=""
+                                  />
+                                  Offers short-term pain relief, often used
+                                  alongside other treatments.
                                 </li>
                               </ul>
                             </div>
@@ -92,21 +191,15 @@ export default function PainManagement() {
                       </div>
                       <div className="company-benefit-wrap">
                         <h4 className="title-two">Any questions find here</h4>
-                        <p>
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen bookhas a not
-                          only five centuries, but also the leap into electronic
-                          typesetting.
-                        </p>
                         <div className="accordion-wrap-three">
-                          <Accordion />
+                          <Accordion data={faqs} />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-29">
-                  <ProcedureDetailPage />
+                  <ProcedureDetailPage slug={"pain-management"} />
                 </div>
               </div>
             </div>
