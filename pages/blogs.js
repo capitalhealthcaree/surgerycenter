@@ -12,7 +12,7 @@ export default function Blog() {
                 <div className="col-100">
                   <div className="blog-post-wrap">
                     <div className="row">
-                      <BlogPost showItem={6} style={1} showPagination />
+                      <BlogPost />
                     </div>
                   </div>
                 </div>

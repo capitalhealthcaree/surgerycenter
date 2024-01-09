@@ -18,40 +18,21 @@ export default function BlogCard1({ item }) {
                 alt=""
               />
             </Link>
-            <Link href="/blog" className="tag tag-two">
-              Development
-            </Link>
           </div>
           <div className="blog-post-content-two">
             <h2 className="title">
-              <Link href={`/blog/${item.id}`}>{item.title}</Link>
+              <Link href={`/blog/${item.id}`}>
+                {item.title.split(" ").slice(0, 7).join(" ") +
+                  (item.title.split(" ").length > 7 ? "..." : "")}
+              </Link>
             </h2>
             <p>
               Everything you need to start building area atching presence for
               your business.
             </p>
-            <div className="blog-meta">
-              <ul className="list-wrap">
-                <li>
-                  <Link href={`/blog/${item.id}`}>
-                    {" "}
-                    <Image
-                      width="0"
-                      height="0"
-                      sizes="100vw"
-                      style={{ width: "auto", height: "auto" }}
-                      src="/assets/img/blog/blog_avatar01.png"
-                      alt=""
-                    />
-                    Kat Doven
-                  </Link>
-                </li>
-                <li>
-                  <i className="far fa-calendar" />
-                  22 Jan, 2023
-                </li>
-              </ul>
-            </div>
+            <Link href="/blog-details" className="link-btn">
+              Read More <i className="flaticon-right-arrow" />
+            </Link>
           </div>
         </div>
       </div>

@@ -21,7 +21,11 @@ export default function MedicalProceduresSideBar({ slug }) {
                 Orthopedic Surgery <i className="flaticon-right-arrow" />
               </Link>
             </li>
-            <li className={`${"otorhinolaryngology-ent" === slug ? "active" : ""}`}>
+            <li
+              className={`${
+                "otorhinolaryngology-ent" === slug ? "active" : ""
+              }`}
+            >
               <Link href="/otorhinolaryngology-ent/">
                 Otorhinolaryngology (ENT) <i className="flaticon-right-arrow" />
               </Link>
@@ -61,8 +65,9 @@ export default function MedicalProceduresSideBar({ slug }) {
         </div>
         <div className="services-widget services-sidebar-contact">
           <h4 className="title">If You Need Any Help Contact With Us</h4>
-          <Link href="tel:0123456789">
-            <i className="flaticon-phone-call" /> +91 705 2101 786
+          <Link href="tel:9729455800">
+            <i className="flaticon-phone-call" />
+            972-945-5800
           </Link>
         </div>
       </aside>
