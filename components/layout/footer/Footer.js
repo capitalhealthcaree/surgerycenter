@@ -113,7 +113,7 @@ export default function Footer3() {
                             <i className="flaticon-phone-call" />
                           </div>
                           <div className="content">
-                            <Link href="tel:0123456789">+123 888 9999</Link>
+                            <Link href="tel:9729455800">972-945-5800</Link>
                           </div>
                         </li>
                         <li>
@@ -121,7 +121,12 @@ export default function Footer3() {
                             <i className="flaticon-pin" />
                           </div>
                           <div className="content">
-                            <p>58 Street Commercial Road Fratton, Australia</p>
+                            <a
+                              href="https://maps.app.goo.gl/cSS2PJeDEEvMGoh16"
+                              target="_blank"
+                            >
+                              <p>2200 Physicians Blvd, Ennis, TX 75119</p>
+                            </a>
                           </div>
                         </li>
 
@@ -132,7 +137,10 @@ export default function Footer3() {
                           <div className="content">
                             <p>
                               Mon – Fri: 9 am – 5 pm, <br />
-                              Sat, Sunday: <span>CLOSED</span>
+                              <span className="text-danger">
+                                Sat, Sunday:
+                                <span className="text-danger">CLOSED</span>
+                              </span>
                             </p>
                           </div>
                         </li>

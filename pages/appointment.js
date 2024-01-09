@@ -12,7 +12,7 @@ export default function Appointment() {
               <div className="row align-items-center">
                 <div className="col-lg-6">
                   <div className="inner-contact-img">
-                    <img src="/assets/img/images/contact_img.jpg" alt="" />
+                    <img src="/assets/img/appointment.jpg" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -26,8 +26,9 @@ export default function Appointment() {
                             alt=""
                             className="pe-2"
                           />
-                          100 Wilshire Blvd, Suite 700 Santa Monica, CA 90401,
-                          USA
+                          <a href="mailto:admin@advancedcaresurgerycenter.com">
+                            admin@advancedcaresurgerycenter.com
+                          </a>
                         </li>
                         <li>
                           <img
@@ -35,7 +36,7 @@ export default function Appointment() {
                             alt=""
                             className="pe-2"
                           />
-                          +1 (310) 620-8565
+                          <a href="tel:9729455800">972-945-5800</a>
                         </li>
                         <li>
                           <img
@@ -43,9 +44,14 @@ export default function Appointment() {
                             alt=""
                             className="pe-2"
                           />
-                          info@gmail.com
+                          <a
+                            href="https://maps.app.goo.gl/cSS2PJeDEEvMGoh16"
+                            target="_blank"
+                          >
+                            2200 Physicians Blvd, Ennis, TX 75119
+                          </a>
                         </li>
-                        <li>
+                        <li style={{ color: "var(--tg-primary-color)" }}>
                           <img
                             src="/assets/img/icons/check_icon.svg"
                             alt=""
@@ -53,7 +59,7 @@ export default function Appointment() {
                           />
                           Mon – Fri: 9 am – 5 pm
                         </li>
-                        <li>
+                        <li style={{ color: "red" }}>
                           <img
                             src="/assets/img/icons/check_icon.svg"
                             alt=""
@@ -70,10 +76,9 @@ export default function Appointment() {
           </section>
           <div className="contact-map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.332792000835!2d144.96011341744386!3d-37.805673299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sbd!4v1685027435635!5m2!1sen!2sbd"
-              allowFullScreen
-              loading="lazy"
-            />
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.2857723108177!2d-96.64098992384959!3d32.30417540799941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864edbbcf119b843%3A0x9f598be011ab21b!2s2200%20Physicians%20Blvd%2C%20Ennis%2C%20TX%2075119!5e0!3m2!1sen!2sus!4v1704813458897!5m2!1sen!2sus"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </Layout>

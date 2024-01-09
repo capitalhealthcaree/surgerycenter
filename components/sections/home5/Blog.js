@@ -24,14 +24,8 @@ export default function Blog() {
                     <Link href="/blog-details">
                       <img src="/assets/img/blog/blog_img03.jpg" alt="" />
                     </Link>
-                    <span className="date">
-                      <strong>25</strong>Jan
-                    </span>
                   </div>
                   <div className="blog-post-content">
-                    <Link href="/blog" className="tag">
-                      Development
-                    </Link>
                     <h2 className="title">
                       <Link href="/blog-details">
                         Meet AutoManage, the best AI management tools
@@ -48,6 +42,13 @@ export default function Blog() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="d-flex justify-content-center">
+            <div className="request-btn">
+              <Link href="/blogs/" className="btn">
+                View All Blogs
+              </Link>
+            </div>
           </div>
         </div>
       </section>

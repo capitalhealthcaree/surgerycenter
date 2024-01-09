@@ -8347,7 +8347,7 @@ label {
 .blog-post-area {
     position: relative;
     z-index: 1;
-    padding: 120px 0 90px;
+    padding: 27px 0 27px;
 }
 
 .blog-post-area .blog-bg {
@@ -9721,7 +9721,7 @@ label {
 }
 
 .footer-top-three {
-    padding: 100px 0 55px;
+    padding: 60px 0 20px;
 }
 
 .footer-top-three .fw-logo {
