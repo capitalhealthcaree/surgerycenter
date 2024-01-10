@@ -1,6 +1,23 @@
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import api from "../../../util/api";
 
 export default function Blog() {
+  const [list, setList] = useState([]);
+
+  async function fetchData() {
+    const res = await api.get("/getLastThreeBlogs");
+    if (res.status === 200) {
+      if (res && res.data && res.data.data) {
+        setList(res.data.data);
+      }
+    }
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
+  console.log("list----------", list);
   return (
     <>
       <section className="blog-post-area">
@@ -17,24 +34,19 @@ export default function Blog() {
             </div>
           </div>
           <div className="row justify-content-center">
-            {[0, 1, 2].map(() => (
-              <div className="col-lg-4 col-md-6 col-sm-10">
+            {list.map((item, index) => (
+              <div className="col-lg-4 col-md-6 col-sm-10" key={index}>
                 <div className="blog-post-item">
                   <div className="blog-post-thumb">
                     <Link href="/blog-details">
-                      <img src="/assets/img/blog/blog_img03.jpg" alt="" />
+                      <img src={item?.image} alt={item?.seoTitle} />
                     </Link>
                   </div>
                   <div className="blog-post-content">
                     <h2 className="title">
-                      <Link href="/blog-details">
-                        Meet AutoManage, the best AI management tools
-                      </Link>
+                      <Link href="/blog-details">{item?.seoTitle}</Link>
                     </h2>
-                    <p>
-                      Everything you need to start building area atching
-                      presence for your business.
-                    </p>
+                    <p>{item?.metaDes}</p>
                     <Link href="/blog-details" className="link-btn">
                       Read More <i className="flaticon-right-arrow" />
                     </Link>

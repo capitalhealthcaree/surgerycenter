@@ -23,7 +23,7 @@ export default function Request() {
                     <i className="flaticon-phone-call" />
                   </div>
                   <div className="content p-2">
-                    <Link href="tel:0123456789">+123 8989 444</Link>
+                    <Link href="tel:9729455800">972-945-5800</Link>
                   </div>
                 </div>
                 <div className="request-btn">
