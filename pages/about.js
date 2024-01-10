@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <Layout headerStyle={6} breadcrumbTitle="About Us">
+      <Layout breadcrumbTitle="About Us">
         <div>
           <section
             className=""

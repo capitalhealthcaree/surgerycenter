@@ -4,12 +4,9 @@ import Layout from "@/components/layout/Layout";
 export default function PreRegister() {
   return (
     <>
-      <Layout headerStyle={6} breadcrumbTitle="Pre Register">
+      <Layout breadcrumbTitle="Pre Register">
         <div>
-          <section
-            className=""
-            style={{ paddingBottom: "50px", paddingTop: "50px" }}
-          >
+          <section style={{ paddingBottom: "50px", paddingTop: "50px" }}>
             <div className="container">
               <div className="row align-items-center justify-content-center">
                 <div className="col-lg-12">

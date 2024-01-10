@@ -22,7 +22,7 @@ export default function PreRegister({ data = [] }) {
   };
   return (
     <>
-      <Layout headerStyle={6} breadcrumbTitle="FAQs and What You Need to Know">
+      <Layout breadcrumbTitle="FAQs and What You Need to Know">
         <div>
           <section
             className=""

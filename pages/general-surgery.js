@@ -22,7 +22,7 @@ const faqs = [
 export default function PainManagement() {
   return (
     <>
-      <Layout headerStyle={6} breadcrumbTitle="General Surgery">
+      <Layout breadcrumbTitle="General Surgery">
         <div>
           <section className="services-details-area pt-120 pb-120">
             <div className="container">

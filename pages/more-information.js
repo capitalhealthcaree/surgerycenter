@@ -4,7 +4,7 @@ import Layout from "@/components/layout/Layout";
 export default function PreRegister() {
   return (
     <>
-      <Layout headerStyle={6} breadcrumbTitle="More Information">
+      <Layout breadcrumbTitle="More Information">
         <div>
           <section
             className=""
