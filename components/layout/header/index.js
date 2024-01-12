@@ -90,7 +90,11 @@ export default function Header6({
                   <nav className="menu-nav">
                     <div className="logo">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo.png" alt="Logo" />
+                        <img
+                          src="/assets/img/logo/logo.png"
+                          alt="Logo"
+                          style={{ maxHeight: "75px" }}
+                        />
                       </Link>
                     </div>
                     <div className="navbar-wrap main-menu d-none d-lg-flex">
@@ -131,7 +135,9 @@ export default function Header6({
                           </ul>
                         </li>
                         <li>
-                          <Link href="/patient-resources/">Patient Resources</Link>
+                          <Link href="/patient-resources/">
+                            Patient Resources
+                          </Link>
                         </li>
                         <li>
                           <Link href="/about/">About Us</Link>

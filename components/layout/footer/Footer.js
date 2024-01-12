@@ -15,7 +15,7 @@ export default function Footer3() {
                         <img
                           src="/assets/img/logo/w_logo.png"
                           alt=""
-                          style={{ maxHeight: "40px" }}
+                          style={{ maxHeight: "100px" }}
                         />
                       </Link>
                     </div>
