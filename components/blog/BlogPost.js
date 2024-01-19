@@ -1,9 +1,22 @@
 import { useEffect, useState } from "react";
-import data from "../../util/blog.json";
 import BlogCard1 from "./BlogCard1";
 import Pagination from "./Pagination";
+import api from "../../util/api";
 
 export default function BlogPost() {
+  const [data, setData] = useState([]);
+
+  async function fetchData() {
+    const res = await api.get("/getAllBlogs");
+    if (res.status === 200) {
+      if (res && res.data && res.data.data) {
+        setData(res.data.data);
+      }
+    }
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
   let [currentPage, setCurrentPage] = useState(1);
   let showLimit = 3,
     paginationItem = 4;

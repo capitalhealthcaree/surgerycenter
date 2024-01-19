@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import api from "../../../util/api";
 
 export default function Blog() {
@@ -17,7 +16,6 @@ export default function Blog() {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log("list----------", list);
   return (
     <>
       <section className="blog-post-area">
@@ -38,16 +36,16 @@ export default function Blog() {
               <div className="col-lg-4 col-md-6 col-sm-10" key={index}>
                 <div className="blog-post-item">
                   <div className="blog-post-thumb">
-                    <Link href="/blog-details">
+                    <Link href={`/blog/${item.slug}`}>
                       <img src={item?.image} alt={item?.seoTitle} />
                     </Link>
                   </div>
                   <div className="blog-post-content">
                     <h2 className="title">
-                      <Link href="/blog-details">{item?.seoTitle}</Link>
+                      <Link href={`/blog/${item.slug}`}>{item?.seoTitle}</Link>
                     </h2>
                     <p>{item?.metaDes}</p>
-                    <Link href="/blog-details" className="link-btn">
+                    <Link href={`/blog/${item.slug}`} className="link-btn">
                       Read More <i className="flaticon-right-arrow" />
                     </Link>
                   </div>
