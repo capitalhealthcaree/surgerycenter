@@ -100,77 +100,6 @@ export default function WhyChooseUsTwo() {
           max-width: 440px;
         }
 
-        /* steps */
-        .steps-list {
-          display: flex;
-          flex-direction: column;
-          position: relative;
-        }
-        .steps-list::before {
-          content: '';
-          position: absolute;
-          left: 23px;
-          top: 44px;
-          bottom: 44px;
-          width: 2px;
-          background: linear-gradient(to bottom, #ff0805 0%, rgba(255,8,5,0.15) 100%);
-          z-index: 0;
-        }
-        .step-item {
-          display: grid;
-          grid-template-columns: 48px 1fr;
-          gap: 20px;
-          padding-bottom: 36px;
-          position: relative;
-          z-index: 1;
-        }
-        .step-item:last-child { padding-bottom: 0; }
-
-        .step-num {
-          width: 48px;
-          height: 48px;
-          border-radius: 50%;
-          border: 2px solid #ff0805;
-          background: #ffffff;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 13px;
-          font-weight: 500;
-          color: #ff0805;
-          flex-shrink: 0;
-          transition: background 0.3s ease, color 0.3s ease;
-          z-index: 2;
-        }
-        .step-item:hover .step-num {
-          background: #ff0805;
-          color: #fff;
-        }
-        .step-body { padding-top: 8px; }
-        .step-title {
-          font-size: 18px;
-          font-weight: 700;
-          color: #070606;
-          margin: 0 0 10px 0;
-          line-height: 1.3;
-          transition: color 0.25s;
-        }
-        .step-item:hover .step-title { color: #ff0805; }
-        .step-desc {
-          font-size: 14.5px;
-          font-weight: 300;
-          line-height: 1.75;
-          color: #666;
-          margin: 0 0 24px 0;
-          max-width: 420px;
-        }
-        .step-divider {
-          height: 1px;
-          background: linear-gradient(90deg, rgba(7,6,6,0.1) 0%, transparent 100%);
-          max-width: 420px;
-        }
-        .step-item:last-child .step-divider { display: none; }
-
         /* ── RIGHT IMAGE ── */
         .wcu2-right {
           position: relative;
@@ -235,12 +164,25 @@ export default function WhyChooseUsTwo() {
               <h2 className="wcu2-h2">
                 Trust Our Expert Surgeons To Deliver Exceptional Results
               </h2>
-            </div>
 
-            <div className="steps-list">
-              {steps.map((s, i) => (
-                <StepItem key={s.num} step={s} index={i} />
-              ))}
+              <p style={{ color: "black" }}>
+                Rao Kamran Ali, MD is a double board-certified physician in Pain
+                Management and Physical Medicine & Rehabilitation (PM&R). He is
+                the CEO of Premier Pain Centers and Advanced Care Center,
+                providing advanced, patient-focused care for individuals
+                searching for a trusted pain management doctor in Dallas, TX and
+                surrounding communities.
+              </p>
+              <p style={{ color: "black" }}>
+                Patients across Dallas, Richardson, North Richland Hills (NRH),
+                Fort Worth, Lancaster, and Hillsboro visit Dr. Rao K. Ali for a
+                thorough evaluation and personalized treatment plans focused on
+                long-term relief and improved function. As an experienced
+                interventional pain specialist in Dallas, Dr. Rao Ali treats
+                chronic and acute pain conditions using minimally invasive,
+                evidence-based approaches designed to help patients return to
+                daily activities with more comfort and confidence.
+              </p>
             </div>
           </div>
 

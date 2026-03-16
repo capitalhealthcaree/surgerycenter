@@ -158,19 +158,10 @@ export default function HeroBanner() {
         }
         .stat-num {
           display: block;
-          font-size: 30px;
+          font-size: 16px;
           font-weight: 700;
-          color: #ff0805;
-          line-height: 1;
-          margin-bottom: 6px;
-        }
-        .stat-lbl {
-          display: block;
-          font-size: 10.5px;
-          font-weight: 400;
           color: white;
-          letter-spacing: 1.5px;
-          text-transform: uppercase;
+          line-height: 1;
         }
 
         /* ── RIGHT IMAGE ── */
@@ -279,13 +270,7 @@ export default function HeroBanner() {
           .stat-block::after { display: none !important; }
 
           .stat-num {
-            font-size: 24px;
-            margin-bottom: 5px;
-          }
-          .stat-lbl {
-            font-size: 9px;
-            letter-spacing: 0.8px;
-            color: white;
+            font-size: 20px;
           }
         }
 
@@ -294,9 +279,8 @@ export default function HeroBanner() {
           .hero-h1 { font-size: 28px; }
           .img-main img { height: 240px; }
           .stat-strip { gap: 8px; }
-          .stat-num { font-size: 20px; }
+          .stat-num { font-size: 10px; }
           .stat-block { padding: 14px 8px !important; border-radius: 10px; }
-          .stat-lbl { font-size: 8.5px; }
         }
       `}</style>
 
@@ -305,20 +289,22 @@ export default function HeroBanner() {
           {/* ─── LEFT ─── */}
           <div className="hero-left">
             <h1 className="hero-h1">
-              Expert Care For
-              <span className="red-word"> Head &amp; Neck </span>
-              Conditions
+              Advanced Spine Surgery for{" "}
+              <span className="red-word">Long-Term Pain</span> Relief
+              {/* <span className="red-word"> Head &amp; Neck </span>
+              Conditions */}
             </h1>
 
             <p className="hero-desc">
-              At Encore Surgery Center we understand the importance of
-              efficiency and comfort when it comes to your healthcare. We offer
-              a wide range of ENT (ear, nose, and throat) procedures in a safe,
-              state-of-the-art ambulatory surgery center setting.
+              Back and neck pain can limit your daily activities and overall
+              well-being. The expert surgical team at AdvancedCare Surgery
+              Center focuses on accurate diagnosis, minimally invasive spine
+              procedures, and personalized recovery plans to support safe
+              healing and lasting results.
             </p>
 
             <div className="btn-wrap">
-              <a href="#" className="btn-red">
+              <a href="/appointment" className="btn-red">
                 <svg
                   width="17"
                   height="17"
@@ -339,16 +325,13 @@ export default function HeroBanner() {
 
             <div className="stat-strip">
               <div className="stat-block">
-                <span className="stat-num">25+</span>
-                <span className="stat-lbl">Board Certified</span>
+                <span className="stat-num">Experienced Spine Specialists</span>
               </div>
               <div className="stat-block">
-                <span className="stat-num">15k+</span>
-                <span className="stat-lbl">Years Experience</span>
+                <span className="stat-num">Advanced Surgical Technology</span>
               </div>
               <div className="stat-block">
-                <span className="stat-num">100%</span>
-                <span className="stat-lbl">New Patients</span>
+                <span className="stat-num">Patient-Focused Care</span>
               </div>
             </div>
           </div>

@@ -33,31 +33,35 @@ export default function About() {
                     className="title"
                     style={{ color: "black", fontSize: "39px" }}
                   >
-                    Compassionate Surgical Care
+                    Excellence in Advanced Surgery Center and Pain Management
                   </h2>
                 </div>
                 <p style={{ color: "black", fontSize: "16px" }}>
-                  At Encore Surgery Center, we prioritize your comfort and
-                  well-being. Our dedicated team offers superior care, ensuring
-                  a stress-free surgical experience. Utilizing the latest
-                  medical technology and high-standard protocols, we are
-                  committed to making your procedure successful and your
-                  experience as comfortable as possible.
+                  AdvancedCare Surgery Center provides exceptional surgical care
+                  with a priority on patient safety, comfort, and well-being.
+                  AdvancedCare brings together a team of dedicated surgeons,
+                  anesthesiologists, nurses, and support staff to provide
+                  advanced medical treatments in a caring and individualized
+                  environment. We provide high-quality treatment tailored to
+                  each patient’s needs for both routine and complex surgeries.
+                  At AdvancedCare Surgery Center, we believe that excellent care
+                  should be available.
                 </p>
 
                 <p
                   className="info-two"
                   style={{ color: "black", fontSize: "16px" }}
                 >
-                  Understanding the emotional impact of surgery, our
-                  compassionate staff provides unwavering support throughout
-                  your journey. Our expert physicians are devoted to your care,
-                  focusing on achieving long-term results that meet your
-                  expectations. We're honored to be trusted with your health and
-                  are dedicated to delivering outstanding care at every step.
+                  Our pre-surgical consultations and care reflect our
+                  patient-centric approach. Our dedication to continuous
+                  progress and medical advancement enables us to provide our
+                  patients with the most advanced therapies and compassionate
+                  care, ensuring a speedy recovery and optimal results. Trust
+                  AdvancedCare Surgery Center to be your health partner, with
+                  every detail geared to improve your surgery and wellness.
                 </p>
-                <Link href="/medical-procedures/" className="btn btn-three">
-                  Our Medical Procedures
+                <Link href="/appointment" className="btn btn-three">
+                  Schedule Appointment
                 </Link>
               </div>
             </div>
