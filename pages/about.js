@@ -1,4 +1,3 @@
-import Blog from "@/components/sections/home5/Blog";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 
@@ -78,7 +77,6 @@ export default function About() {
               </div>
             </div>
           </section>
-          <Blog/>
         </div>
       </Layout>
     </>

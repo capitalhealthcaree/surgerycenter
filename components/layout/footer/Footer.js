@@ -15,12 +15,11 @@ export default function Footer3() {
                     </Link>
                   </div>
                   <div className="footer-content">
-                    <p>
-                      Our clinic excels in delivering top-tier medical care,
-                      specializing in Anesthesiology, General Surgery,
-                      Orthopedic Surgery, ENT, and Pain Management. We
-                      prioritize patient well-being and cutting-edge treatment
-                      approaches
+                    <p style={{ color: "white" }}>
+                      AdvancedCare Surgery Center offers a broad range of
+                      outpatient surgical procedures performed by board
+                      certified specialists, ensuring cutting-edge techniques
+                      and compassionate care for every patient.
                     </p>
                   </div>
                   <div className="header-action">
@@ -36,51 +35,42 @@ export default function Footer3() {
               </div>
               <div className="col-lg-2 col-md-5 col-sm-6">
                 <div className="footer-widget">
-                  <h4 className="fw-title">Menu</h4>
+                  <h4 className="fw-title">Conditions</h4>
                   <div className="footer-link">
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/anesthesiology/">Anesthesiology</Link>
-                      </li>
-                      <li>
-                        <Link href="/general-surgery/">General Surgery</Link>
-                      </li>
-                      <li>
-                        <Link href="/orthopedic-surgery/">
-                          Orthopedic Surgery
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/otorhinolaryngology-ent/">
-                          Otorhinolaryngology
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/pain-management/">Pain Management</Link>
-                      </li>
+                    <ul className="list-wrap text-white">
+                      <li>Herniated Disc</li>
+                      <li>Kyphosis</li>
+                      <li>Spinal Stenosis</li>
+                      <li>Sciatica</li>
+                      <li>Cervical Radiculopathy</li>
+                      <li>Spondylolisthesis</li>
+                      <a
+                        style={{ color: "#ff0805" }}
+                        href="/conditions-we-treat"
+                      >
+                        View All
+                      </a>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-5 col-sm-6">
                 <div className="footer-widget">
-                  <h4 className="fw-title">Quick Links</h4>
+                  <h4 className="fw-title">Procedures</h4>
                   <div className="footer-link">
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/patient-resources/">
-                          Patient Resources
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/appointment/">Get Appointment</Link>
-                      </li>
-                      <li>
-                        <Link href="/about/">About Us</Link>
-                      </li>
-                      <li>
-                        <Link href="/blogs/">Blogs</Link>
-                      </li>
+                    <ul className="list-wrap text-white">
+                      <li>Minimally Invasive Surgery</li>
+                      <li>Spinal Fusion</li>
+                      <li>Laminectomy</li>
+                      <li>Discectomy</li>
+                      <li>Disc Replacement</li>
+                      <li>Kyphoplasty</li>
+                      <a
+                        style={{ color: "#ff0805" }}
+                        href="/surgical-procedures"
+                      >
+                        View All
+                      </a>
                     </ul>
                   </div>
                 </div>
@@ -95,17 +85,12 @@ export default function Footer3() {
                           <i className="flaticon-mail" />
                         </div>
                         <div className="content">
-                          <Link href="mailto:admin@advancedcaresurgerycenter.com">
+                          <Link
+                            href="mailto:admin@advancedcaresurgerycenter.com"
+                            className="text-white"
+                          >
                             admin@advancedcaresurgerycenter.com
                           </Link>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <i className="flaticon-phone-call" />
-                        </div>
-                        <div className="content">
-                          <Link href="tel:9729455800">972-945-5800</Link>
                         </div>
                       </li>
                       <li>
@@ -117,53 +102,31 @@ export default function Footer3() {
                             href="https://maps.app.goo.gl/cSS2PJeDEEvMGoh16"
                             target="_blank"
                           >
-                            <p>2200 Physicians Blvd, Ennis, TX 75119</p>
+                            <p className="text-white">
+                              2200 Physicians Blvd, Ennis, TX 75119
+                            </p>
                           </a>
                         </div>
                       </li>
-
                       <li>
                         <div className="icon">
-                          <i className="flaticon-clock" />
+                          <i className="flaticon-phone-call" />
                         </div>
                         <div className="content">
-                          <p>
-                            Mon – Fri: 9 am – 5 pm, <br />
-                            <span className="text-danger">
-                              Sat, Sunday:
-                              <span className="text-danger">CLOSED</span>
-                            </span>
-                          </p>
+                          <Link href="tel:972-782-9090" className="text-white">
+                            972-782-9090
+                          </Link>
                         </div>
                       </li>
-                    </ul>
-                  </div>
-                  <div className="footer-social footer-social-two">
-                    <ul className="list-wrap">
                       <li>
-                        <Link href="#">
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-pinterest-p" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-youtube" />
-                        </Link>
+                        <div className="icon">
+                          <i className="fas fa-fax"></i>
+                        </div>
+                        <div className="content">
+                          <Link href="tel:972-764-8909" className="text-white">
+                            972-764-8909
+                          </Link>
+                        </div>
                       </li>
                     </ul>
                   </div>
