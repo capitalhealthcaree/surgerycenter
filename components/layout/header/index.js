@@ -22,7 +22,10 @@ export default function Header6({
                 <div className="header-top-left">
                   <ul className="list-wrap">
                     <li>
-                      <i className="flaticon-location" />
+                      <i
+                        className="flaticon-location"
+                        style={{ color: "#ff0805" }}
+                      />
                       <a
                         href="https://maps.app.goo.gl/cSS2PJeDEEvMGoh16"
                         target="_blank"
@@ -31,7 +34,10 @@ export default function Header6({
                       </a>
                     </li>
                     <li>
-                      <i className="flaticon-mail" />
+                      <i
+                        className="flaticon-mail"
+                        style={{ color: "#ff0805" }}
+                      />
                       <Link href="mailto:admin@advancedcaresurgerycenter.com">
                         admin@advancedcaresurgerycenter.com
                       </Link>
@@ -42,31 +48,30 @@ export default function Header6({
               <div className="col-lg-5">
                 <div className="header-top-right">
                   <div className="header-contact">
-                    <Link href="tel:9729455800">
-                      <i className="flaticon-phone-call" />
-                      972-945-5800
+                    <Link href="tel:972-782-9090">
+                      <i
+                        className="flaticon-phone-call"
+                        style={{ color: "#ff0805" }}
+                      />
+                      972-782-9090
                     </Link>
                   </div>
                   <div className="header-social">
                     <ul className="list-wrap">
                       <li>
-                        <Link href="#">
-                          <i className="fab fa-facebook-f" />
+                        <Link href="https://www.facebook.com/advancedcaresurgerycenter/">
+                          <i
+                            className="fab fa-facebook-f"
+                            style={{ color: "#ff0805" }}
+                          />
                         </Link>
                       </li>
                       <li>
-                        <Link href="#">
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-pinterest-p" />
+                        <Link href="https://www.linkedin.com/company/advancedcare-surgery-center/">
+                          <i
+                            className="fab fa-linkedin"
+                            style={{ color: "#ff0805" }}
+                          />
                         </Link>
                       </li>
                     </ul>
