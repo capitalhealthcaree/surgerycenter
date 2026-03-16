@@ -90,11 +90,7 @@ export default function Header6({
                   <nav className="menu-nav">
                     <div className="logo">
                       <Link href="/">
-                        <img
-                          src="/assets/img/logo/logo.png"
-                          alt="Logo"
-                          style={{ maxHeight: "75px" }}
-                        />
+                        <img src="/assets/img/logo/logo.png" alt="Logo" />
                       </Link>
                     </div>
                     <div className="navbar-wrap main-menu d-none d-lg-flex">
@@ -102,42 +98,11 @@ export default function Header6({
                         <li>
                           <Link href="/">Home</Link>
                         </li>
-                        <li className="active menu-item-has-children">
-                          <Link href="/medical-procedures">
-                            Medical Procedures
-                          </Link>
-                          <ul className="sub-menu">
-                            <li>
-                              <Link href="/anesthesiology/">
-                                Anesthesiology
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/general-surgery/">
-                                General Surgery
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/orthopedic-surgery/">
-                                Orthopedic Surgery
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/otorhinolaryngology-ent/">
-                                Otorhinolaryngology (ENT)
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/pain-management/">
-                                Pain Management
-                              </Link>
-                            </li>
-                          </ul>
+                        <li>
+                          <Link href="/conditions-we-treat">Conditions</Link>
                         </li>
                         <li>
-                          <Link href="/patient-resources/">
-                            Patient Resources
-                          </Link>
+                          <Link href="/surgical-procedures">Procedures</Link>
                         </li>
                         <li>
                           <Link href="/about/">About Us</Link>

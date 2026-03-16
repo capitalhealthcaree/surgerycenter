@@ -51,8 +51,8 @@
 :root {
     --tg-body-font-family: 'Plus Jakarta Sans', sans-serif;
     --tg-heading-font-family: 'Urbanist', sans-serif;
-    --tg-primary-color: #0055FF;
-    --tg-secondary-color: #00194C;
+    --tg-primary-color: #ff0805;
+    --tg-secondary-color: #070606;
     --tg-body-font-color: #334770;
     --tg-heading-font-color: #00194C;
     --tg-paragraph-color: #334770;
@@ -9717,7 +9717,7 @@ label {
 
 /* footer-three */
 .footer-area-three {
-    background: #051433;
+    background: #070606;
 }
 
 .footer-top-three {
