@@ -288,9 +288,9 @@ export default function PathToRecovery() {
                   <p
                     className="mb-0"
                     style={{
-                      color: "rgba(255,255,255,0.5)",
-                      fontSize: "13.5px",
-                      lineHeight: 1.75,
+                      color: "white",
+                      fontSize: "12px",
+                      lineHeight: 1.7,
                     }}
                   >
                     {step.desc}
