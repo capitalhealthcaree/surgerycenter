@@ -6,6 +6,7 @@ import WhyChoose from "@/components/sections/home/WhyChoose";
 import Doctor from "@/components/sections/home/Doctor";
 import Procedures from "@/components/sections/home/Procedures";
 import Team from "@/components/sections/home/Team";
+import PathToRecovery from "@/components/sections/home/PathToRecovery";
 import Appointment from "@/components/sections/home/Appointment";
 
 export default function Home() {
@@ -15,10 +16,10 @@ export default function Home() {
       <About />
       <Conditions />
       <WhyChoose />
-      <Doctor />
-      <Procedures />
       <Team />
+      <Procedures />
       <Appointment />
+      <PathToRecovery />
     </Layout>
   );
 }

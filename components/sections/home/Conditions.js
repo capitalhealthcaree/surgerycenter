@@ -444,7 +444,7 @@ export default function ConditionsWetreat() {
         }
       `}</style>
 
-      <div className="container-fluids my-4">
+      <div>
         <div className="p-4" style={{ backgroundColor: "#070606" }}>
           <div className="cwt-header">
             <h2>

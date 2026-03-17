@@ -139,9 +139,13 @@ export default function Footer3() {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <div className="copyright-text-two text-center">
-                  <p>
-                    Copyright © AdvancedCareSurgeryCenter | All Right Reserved
+                <div className="copyright-text-two text-center text-white">
+                  <p className="text-white">
+                    Copyright ©{" "}
+                    <a href="https://advancedcaresurgerycenter.com">
+                      AdvancedCareSurgeryCenter
+                    </a>{" "}
+                    | All Right Reserved
                   </p>
                 </div>
               </div>
