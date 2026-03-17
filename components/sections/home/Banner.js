@@ -127,6 +127,7 @@ export default function HeroBanner() {
           background: #cc0603;
           border-color: #cc0603;
           transform: translateY(-3px);
+          color: #fff;
           box-shadow: 0 12px 36px rgba(255,8,5,0.45);
         }
 
