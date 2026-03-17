@@ -190,7 +190,7 @@ export default function WhyChooseUs() {
           .icon-circle { width: 90px !important; height: 90px !important; }
         }
       `}</style>
-      <div className="container my-4">
+      <div className="containers my-4s">
         <div className="why-section">
           {/* heading */}
           <div

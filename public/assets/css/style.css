@@ -2657,8 +2657,8 @@ label {
 }
 
 .mask-img-wrap {
-    -webkit-mask-image: url(../img/images/mask_img.png);
-    mask-image: url(../img/images/mask_img.png);
+    /* -webkit-mask-image: url(../img/images/mask_img.png); */
+    /* mask-image: url(../img/images/mask_img.png); */
     -webkit-mask-size: 100%;
     mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
@@ -3457,8 +3457,8 @@ label {
 }
 
 .mask-img-two {
-    -webkit-mask-image: url(../img/images/mask_img02.png);
-    mask-image: url(../img/images/mask_img02.png);
+    /* -webkit-mask-image: url(../img/images/mask_img02.png); */
+    /* mask-image: url(../img/images/mask_img02.png); */
     -webkit-mask-size: 100%;
     mask-size: 100%;
     -webkit-mask-repeat: no-repeat;

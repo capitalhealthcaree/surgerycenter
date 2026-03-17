@@ -312,7 +312,7 @@ export default function SurgicalProcedures() {
         }
       `}</style>
 
-      <div className="container my-4">
+      <div className="containers my-4">
         <div
           className="p-4"
           style={{

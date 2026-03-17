@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://surgerycenter-apis.vercel.app/";
+const BASE_URL = "https://advancedcaresurgerycenter-a-pi.vercel.app/";
 const LOCAL_URL = "http://localhost:5000";
 const config = {
   headers: {

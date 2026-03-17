@@ -110,11 +110,14 @@ export default function Header6({
                           <Link href="/surgical-procedures">Procedures</Link>
                         </li>
                         <li>
-                          <Link href="/about/">About Us</Link>
+                          <Link href="/meet-our-team">Meet Our Team</Link>
                         </li>
                         <li>
-                          <Link href="/blogs">Blogs</Link>
+                          <Link href="/about/">About Us</Link>
                         </li>
+                        {/* <li>
+                          <Link href="/blogs">Blogs</Link>
+                        </li> */}
                       </ul>
                     </div>
                     <div className="header-action d-none d-md-block">
