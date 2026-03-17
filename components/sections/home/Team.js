@@ -5,11 +5,13 @@ const doctors = [
     name: "Rao K. Ali MD",
     role: "Board Certified Interventional Pain Management",
     img: "/assets/img/team/rao-k-ali.png",
+    link: "/rao-k-ali-md-surgical-specialist-in-dallas",
   },
   {
     name: "Christopher P Creighton MD",
     role: "Board Certified Interventional Pain Management",
     img: "/assets/img/team/dr-christopher-creighton.png",
+    link: "/dr-christopher-creighton",
   },
 ];
 
@@ -169,7 +171,7 @@ export default function MeetDoctors() {
                         lineHeight: 1.3,
                       }}
                     >
-                      {doc.name}
+                      <a href={doc.link}> {doc.name}</a>
                     </h5>
 
                     {/* Role */}
@@ -186,7 +188,7 @@ export default function MeetDoctors() {
 
                     {/* CTA Button */}
                     <a
-                      href="#"
+                      href={doc.link}
                       className="md-btn d-inline-flex align-items-center gap-2 px-3 py-2 rounded-1"
                     >
                       View Profile
