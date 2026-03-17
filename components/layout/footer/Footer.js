@@ -99,11 +99,11 @@ export default function Footer3() {
                         </div>
                         <div className="content">
                           <a
-                            href="https://maps.app.goo.gl/cSS2PJeDEEvMGoh16"
+                            href="https://maps.app.goo.gl/yLinzmgPJpi4mBDY8"
                             target="_blank"
                           >
                             <p className="text-white">
-                              2200 Physicians Blvd, Ennis, TX 75119
+                              2200 Physicians Blvd Suite A, Ennis, TX 75119
                             </p>
                           </a>
                         </div>

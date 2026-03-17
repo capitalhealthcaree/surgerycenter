@@ -162,8 +162,8 @@ const contactItems = [
   {
     icon: <MapPinIcon />,
     label: "Address",
-    link: "https://maps.app.goo.gl/oyK1hxBtkEQJi7mDA",
-    value: "2200 Physicians Blvd, Ennis, TX 75119",
+    link: "https://maps.app.goo.gl/yLinzmgPJpi4mBDY8",
+    value: "2200 Physicians Blvd Suite A, Ennis, TX 75119",
   },
   {
     icon: <PhoneWhiteIcon />,

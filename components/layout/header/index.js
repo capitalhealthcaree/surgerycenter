@@ -27,10 +27,10 @@ export default function Header6({
                         style={{ color: "#ff0805" }}
                       />
                       <a
-                        href="https://maps.app.goo.gl/cSS2PJeDEEvMGoh16"
+                        href="https://maps.app.goo.gl/yLinzmgPJpi4mBDY8"
                         target="_blank"
                       >
-                        2200 Physicians Blvd, Ennis, TX 75119
+                        2200 Physicians Blvd Suite A, Ennis, TX 75119{" "}
                       </a>
                     </li>
                     <li>
