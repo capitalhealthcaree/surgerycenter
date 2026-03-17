@@ -67,7 +67,7 @@ export default function GoogleReviews() {
     text.length <= maxLength ? text : text.substring(0, maxLength) + "...";
 
   return (
-    <div className="container my-4">
+    <div className="container mb-4">
       {/* Header */}
       <div
         className="p-3"

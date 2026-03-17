@@ -5,6 +5,7 @@ const nextConfig = {
     domains: [
       "firebasestorage.googleapis.com",
       "https://advancedcaresurgerycenter.com",
+      "res.cloudinary.com",
     ],
   },
 };

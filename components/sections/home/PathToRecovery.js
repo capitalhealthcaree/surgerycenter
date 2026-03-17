@@ -88,34 +88,22 @@ export default function PathToRecovery() {
     <>
       <style>{`
         .ptr-section {
-          background: #070606;
+          background: #ffffff;
           position: relative;
           overflow: hidden;
         }
 
-        /* Diagonal stripe texture */
+        /* Subtle diagonal stripe */
         .ptr-section::before {
           content: '';
           position: absolute;
           inset: 0;
           background-image: repeating-linear-gradient(
             -50deg, transparent, transparent 80px,
-            rgba(255,8,5,0.018) 80px, rgba(255,8,5,0.018) 81px
+            rgba(255,8,5,0.022) 80px, rgba(255,8,5,0.022) 81px
           );
           pointer-events: none;
           z-index: 0;
-        }
-
-        /* Red glow top center */
-        .ptr-glow {
-          position: absolute;
-          top: -60px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 700px;
-          height: 320px;
-          background: radial-gradient(ellipse, rgba(255,8,5,0.07) 0%, transparent 70%);
-          pointer-events: none;
         }
 
         /* Animations */
@@ -129,19 +117,36 @@ export default function PathToRecovery() {
         }
 
         .ptr-fade-down { animation: fadeDown 0.65s ease 0.1s both; }
-
         .ptr-step:nth-child(1) { animation: fadeUp 0.6s ease 0.10s both; }
         .ptr-step:nth-child(2) { animation: fadeUp 0.6s ease 0.22s both; }
         .ptr-step:nth-child(3) { animation: fadeUp 0.6s ease 0.34s both; }
         .ptr-step:nth-child(4) { animation: fadeUp 0.6s ease 0.46s both; }
 
+        /* Step card */
+        .ptr-card {
+          background: #fff;
+          border: 1px solid rgba(255,8,5,0.12);
+          border-top: 3px solid #ff0805;
+          border-radius: 14px;
+          padding: 32px 20px 28px;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+          transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+          height: 100%;
+        }
+        .ptr-step:hover .ptr-card {
+          transform: translateY(-6px);
+          box-shadow: 0 18px 48px rgba(255,8,5,0.13);
+          border-color: rgba(255,8,5,0.4);
+          border-top-color: #ff0805;
+        }
+
         /* Icon circle */
         .ptr-icon-wrap {
-          width: 90px;
-          height: 90px;
+          width: 88px;
+          height: 88px;
           border-radius: 50%;
-          background: radial-gradient(135deg, #ff0805 0%, #a80200 100%);
-          box-shadow: 0 8px 30px rgba(255,8,5,0.35);
+          background: linear-gradient(135deg, #ff0805 0%, #a80200 100%);
+          box-shadow: 0 8px 28px rgba(255,8,5,0.28);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -150,21 +155,21 @@ export default function PathToRecovery() {
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .ptr-step:hover .ptr-icon-wrap {
-          transform: translateY(-4px);
-          box-shadow: 0 16px 40px rgba(255,8,5,0.5);
+          transform: translateY(-3px) scale(1.05);
+          box-shadow: 0 14px 36px rgba(255,8,5,0.42);
         }
 
         /* Step number badge */
         .ptr-badge {
           position: absolute;
-          top: -4px;
-          right: -4px;
+          top: -2px;
+          right: -2px;
           width: 26px;
           height: 26px;
           border-radius: 50%;
-          background: #0e0d0d;
+          background: #070606;
           border: 2px solid #ff0805;
-          color: #ff0805;
+          color: white;
           font-size: 11px;
           font-weight: 700;
           display: flex;
@@ -173,84 +178,31 @@ export default function PathToRecovery() {
           line-height: 1;
         }
 
-        /* Connector line between steps (desktop only) */
-        .ptr-connector {
-          position: absolute;
-          top: 45px;
-          left: calc(50% + 52px);
-          width: calc(100% - 104px);
-          height: 1px;
-          background: linear-gradient(90deg, rgba(255,8,5,0.5), rgba(255,8,5,0.1));
-          z-index: 0;
-        }
-
-        /* Step card hover */
-        .ptr-step {
-          position: relative;
-          z-index: 1;
-          transition: transform 0.3s ease;
-        }
-
-        /* CTA Button */
-        .ptr-btn {
-          background: #ff0805;
-          color: #fff !important;
-          font-weight: 700;
-          font-size: 15px;
-          letter-spacing: 0.5px;
-          border: none;
-          padding: 16px 48px;
-          border-radius: 6px;
-          text-decoration: none;
-          display: inline-block;
-          transition: background 0.25s, transform 0.2s, box-shadow 0.25s;
-          box-shadow: 0 8px 28px rgba(255,8,5,0.4);
-          animation: fadeUp 0.6s ease 0.55s both;
-        }
-        .ptr-btn:hover {
-          background: #cc0604;
-          transform: translateY(-2px);
-          box-shadow: 0 14px 36px rgba(255,8,5,0.55);
-        }
-
-        /* Divider under icon */
-        .ptr-divider {
-          width: 36px;
-          height: 2px;
-          background: rgba(255,8,5,0.6);
-          border-radius: 1px;
-          margin: 14px auto 12px;
-        }
+        .ptr-step { position: relative; z-index: 1; }
 
         @media (max-width: 767px) {
-          .ptr-connector { display: none; }
+          .ptr-card { padding: 24px 16px 22px; }
         }
       `}</style>
 
-      <section className="ptr-section py-5">
-        <div className="ptr-glow" />
-
+      <section className="ptr-section pt-4">
         <div className="container position-relative" style={{ zIndex: 1 }}>
           {/* ── Header ── */}
-          <div className="row justify-content-center mb-5 ptr-fade-down">
+          <div className="row justify-content-center mb-4 ptr-fade-down">
             <div className="col-12 col-md-8 text-center">
               <h2
-                className="fw-bold text-white mb-3"
-                style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)" }}
+                className="fw-bold mb-0"
+                style={{
+                  color: "#0e0d0d",
+                  fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
+                }}
               >
                 Your Path to{" "}
                 <em className="fst-normal" style={{ color: "#ff0805" }}>
                   Recovery
                 </em>
               </h2>
-              <p
-                className="mb-0"
-                style={{
-                  color: "rgba(255,255,255,0.55)",
-                  fontSize: "16px",
-                  lineHeight: 1.7,
-                }}
-              >
+              <p className="mb-0" style={{ color: "black", fontSize: "16px" }}>
                 From your first consultation to full recovery, we guide you
                 through every step of your spine care journey.
               </p>
@@ -261,25 +213,17 @@ export default function PathToRecovery() {
           <div className="row justify-content-center g-4 mb-5">
             {steps.map((step, i) => (
               <div className="col-12 col-sm-6 col-lg-3 ptr-step" key={i}>
-                {/* Connector line — only on lg+ between cards */}
-                {i < steps.length - 1 && (
-                  <div className="d-none d-lg-block ptr-connector" />
-                )}
-
-                <div className="text-center px-2">
+                <div className="ptr-card text-center">
                   {/* Icon */}
                   <div className="ptr-icon-wrap">
                     {step.icon}
                     <span className="ptr-badge">{i + 1}</span>
                   </div>
 
-                  {/* Divider */}
-                  <div className="ptr-divider" />
-
                   {/* Title */}
                   <h5
-                    className="fw-bold text-white mb-2"
-                    style={{ fontSize: "17px" }}
+                    className="fw-bold my-2"
+                    style={{ color: "#0e0d0d", fontSize: "17px" }}
                   >
                     {step.title}
                   </h5>
@@ -288,9 +232,8 @@ export default function PathToRecovery() {
                   <p
                     className="mb-0"
                     style={{
-                      color: "white",
-                      fontSize: "12px",
-                      lineHeight: 1.7,
+                      color: "black",
+                      fontSize: "13.5px",
                     }}
                   >
                     {step.desc}
@@ -298,15 +241,6 @@ export default function PathToRecovery() {
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* ── CTA Button ── */}
-          <div className="row">
-            <div className="col-12 text-center">
-              <a href="/appointment" className="ptr-btn">
-                Start Your Journey →
-              </a>
-            </div>
           </div>
         </div>
       </section>

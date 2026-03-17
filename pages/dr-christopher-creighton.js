@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import ShortProfile from "@/components/doctor/ShortProfile";
 import Education from "@/components/doctor/Education";
+import WhyChoose from "@/components/doctor/WhyChoose";
 import Appointment from "@/components/sections/home/Appointment";
 
 export default function ChristopherCreighton() {
@@ -20,10 +21,25 @@ export default function ChristopherCreighton() {
       "He performs a broad range of interventional pain management techniques to treat complex conditions such as spinal pain, nerve pain, back pain, and joint pain, making him a preferred choice for anyone looking for a spine pain doctor near me. Outside of medicine, Christopher P. Creighton MD enjoys a variety of activities including scuba diving, sailing, cycling, hiking, woodworking, and gardening. He and his wife of 35 years are proud parents of two accomplished children, a daughter in computer science and a son who works as an engineer.",
   };
 
+  const whyChoose = {
+    heading: "Why Choose Us",
+    desc: "At Premier Pain Centers, our mission is to provide compassionate, evidence-based care that delivers real relief. We combine the latest medical technology with years of expertise to accurately diagnose, treat, and manage pain. Patients benefit from:",
+    points: [
+      "Board-certified pain specialist with 35+ years of experience",
+      "Minimally invasive procedures that speed recovery and reduce discomfort",
+      "Personalized treatment plans designed for each patient’s condition",
+      "Multiple convenient North Texas locations for accessible care",
+      "A caring, patient-first environment that prioritizes comfort and trust",
+    ],
+    image:
+      "/assets/img/why-choose-dr-creighton.png",
+  };
+
   return (
     <Layout breadcrumbTitle="Interventional Pain Management Physician">
       <ShortProfile profileData={profileData} />
       <Education educationData={educationData} />
+      <WhyChoose whyChoose={whyChoose} />
       <Appointment />
     </Layout>
   );

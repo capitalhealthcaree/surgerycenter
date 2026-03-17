@@ -188,8 +188,6 @@ export default function DoctorIntro({ profileData }) {
         .intro-bio {
           font-size: 16px;
           color: black;
-          line-height: 1.75;
-          margin-bottom: px;
         }
 
         .intro-btn {

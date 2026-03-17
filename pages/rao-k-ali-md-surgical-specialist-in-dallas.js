@@ -1,6 +1,8 @@
 import Layout from "@/components/layout/Layout";
 import ShortProfile from "@/components/doctor/ShortProfile";
 import Education from "@/components/doctor/Education";
+import Leadership from "@/components/doctor/Leadership";
+import WhyChoose from "@/components/doctor/WhyChoose";
 import Appointment from "@/components/sections/home/Appointment";
 
 export default function RaoKAli() {
@@ -20,10 +22,25 @@ export default function RaoKAli() {
       "His training and experience make him a top-rated pain doctor in Dallas and one of the most trusted pain management doctors near me for long-term pain relief and minimally invasive care.",
   };
 
+  const whyChoose = {
+    heading: "Why Choose Dr. Rao Ali",
+    desc: "Patients trust Dr. Rao K. Ali for his exceptional skill, compassion, and commitment to helping them live pain-free. With extensive experience in interventional pain management, he provides innovative, minimally invasive treatments that target the source of pain and promote lasting recovery.",
+    points: [
+      "Board-Certified in Pain Medicine and Anesthesiology",
+      "Fellowship-Trained in Interventional Pain Management",
+      "Specialist in Advanced Spine and Joint Procedures",
+      "Trusted Pain Doctor in Dallas & North Texas",
+      "Dedicated to Compassionate, Patient-Focused Care",
+    ],
+    image:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1767721891/doctors/o4whbcjqlgr9y8msuqwc.jpg",
+  };
   return (
     <Layout breadcrumbTitle="Interventional Pain Management Physician">
       <ShortProfile profileData={profileData} />
       <Education educationData={educationData} />
+      <Leadership />
+      <WhyChoose whyChoose={whyChoose} />
       <Appointment />
     </Layout>
   );
