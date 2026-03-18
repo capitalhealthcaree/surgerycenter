@@ -88,7 +88,7 @@ export default function PathToRecovery() {
     <>
       <style>{`
         .ptr-section {
-          background: #ffffff;
+          background: white;
           position: relative;
           overflow: hidden;
         }
