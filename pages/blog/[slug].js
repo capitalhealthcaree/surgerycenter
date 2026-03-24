@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import ProcedureDetailPage from "@/components/procedure-detail-page";
+// import ProcedureDetailPage from "@/components/procedure-detail-page";
 import api from "../../util/api";
 
 export default function BlogDetails({ items }) {
@@ -23,7 +23,7 @@ export default function BlogDetails({ items }) {
                       </div>
                     </div>
                     <div className="col-29">
-                      <ProcedureDetailPage />
+                      {/* <ProcedureDetailPage /> */}
                     </div>
                   </div>
                 </div>
