@@ -27,7 +27,7 @@ export default function CTA() {
 
             {/* Bottom: buttons + trust */}
             <div className="cta-bottom">
-              <a href="/appointment/" className="cta-btn-main">
+              <a href="/appointment" className="cta-btn-main">
                 Book An Appointment
               </a>
               <a href="tel:9727829090" className="cta-btn-outline">

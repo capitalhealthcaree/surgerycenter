@@ -52,7 +52,7 @@ export default function DoctorIntro({ profileData }) {
 
             <p className="intro-bio">{profileData.paragraph}</p>
 
-            <a href="/appointment/" className="intro-btn">
+            <a href="/appointment" className="intro-btn">
               Book Appointment &nbsp;→
             </a>
           </div>

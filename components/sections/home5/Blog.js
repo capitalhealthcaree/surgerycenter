@@ -55,7 +55,7 @@ export default function Blog() {
           </div>
           <div className="d-flex justify-content-center">
             <div className="request-btn">
-              <Link href="/blogs/" className="btn">
+              <Link href="/blogs" className="btn">
                 View All Blogs
               </Link>
             </div>

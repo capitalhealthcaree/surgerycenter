@@ -25,7 +25,7 @@ export default function Footer3() {
                   <div className="header-action">
                     <ul className="list-wrap" style={{ marginLeft: "0px" }}>
                       <li className="header-btn">
-                        <Link href="/appointment/" className="btn btn-two">
+                        <Link href="/appointment" className="btn btn-two">
                           Get a Appointment
                         </Link>
                       </li>
