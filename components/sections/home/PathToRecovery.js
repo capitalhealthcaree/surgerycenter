@@ -1,5 +1,3 @@
-"use client";
-
 const steps = [
   {
     icon: (
@@ -20,7 +18,7 @@ const steps = [
       </svg>
     ),
     title: "Initial Consultation",
-    desc: "Comprehensive evaluation of your condition, medical history, and imaging studies to understand your unique needs.",
+    desc: "Detailed evaluation helps understand symptoms, history, and the most suitable surgical direction.",
   },
   {
     icon: (
@@ -41,7 +39,7 @@ const steps = [
       </svg>
     ),
     title: "Diagnosis",
-    desc: "Advanced diagnostic techniques to precisely identify the source of your pain and determine the best treatment approach.",
+    desc: "Advanced imaging and assessment confirm conditions and guide accurate surgical decision making process.",
   },
   {
     icon: (
@@ -60,7 +58,7 @@ const steps = [
       </svg>
     ),
     title: "Treatment Plan",
-    desc: "Personalized treatment strategy tailored to your condition, ranging from conservative care to advanced surgical options.",
+    desc: "Customized surgical plan focuses on condition severity, safety, and expected recovery outcomes.",
   },
   {
     icon: (
@@ -79,7 +77,7 @@ const steps = [
       </svg>
     ),
     title: "Recovery",
-    desc: "Ongoing support throughout your healing journey with comprehensive follow-up care and rehabilitation guidance.",
+    desc: "Post-surgical care supports healing, mobility improvement, and gradual return to daily activities.",
   },
 ];
 
@@ -203,8 +201,8 @@ export default function PathToRecovery() {
                 </em>
               </h2>
               <p className="mb-0" style={{ color: "black", fontSize: "16px" }}>
-                From your first consultation to full recovery, we guide you
-                through every step of your spine care journey.
+                A structured approach supports smooth progression from diagnosis
+                to recovery with clear guidance at every step.
               </p>
             </div>
           </div>

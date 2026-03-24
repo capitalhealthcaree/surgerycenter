@@ -1,63 +1,114 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function About() {
   return (
-    <div>
-      <section
-        className=""
-        style={{ paddingBottom: "50px", paddingTop: "50px" }}
-      >
-        <div className="container">
-          <div className="row align-items-center justify-content-center">
-            <div className="col-lg-6 col-md-9 order-0 order-lg-2">
-              <div className="about-img-seven-wrap">
-                <img src="/assets/img/aboutus/right-one.jpg" />
-                <img src="/assets/img/aboutus/right-two.png" />
+    <>
+      <div className="container my-4">
+        <div className="pwf-wrap">
+          <div className="row g-0 align-items-stretch">
+            {/* Left — Image (desktop: left, mobile: right) */}
+            <div className="col-12 col-lg-6 order-2 order-lg-1">
+              <div className="pwf-img-wrap overflow-hidden h-100">
+                <Image
+                  src="/assets/img/aboutus/about.png"
+                  alt="We Help You Pave a Path Worth Following"
+                  fill
+                  sizes="(max-width: 991px) 100vw, 45vw"
+                  className="object-fit-cover"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="about-content-seven">
-                <div className="section-title mb-30">
-                  <span className="sub-title">About Us</span>
-                  <h2
-                    className="title"
-                    style={{ color: "black", fontSize: "39px" }}
-                  >
-                    Excellence in Advanced Surgery Center and Pain Management
-                  </h2>
-                </div>
-                <p style={{ color: "black", fontSize: "16px" }}>
-                  AdvancedCare Surgery Center provides exceptional surgical care
-                  with a priority on patient safety, comfort, and well-being.
-                  AdvancedCare brings together a team of dedicated surgeons,
-                  anesthesiologists, nurses, and support staff to provide
-                  advanced medical treatments in a caring and individualized
-                  environment. We provide high-quality treatment tailored to
-                  each patient’s needs for both routine and complex surgeries.
-                  At AdvancedCare Surgery Center, we believe that excellent care
-                  should be available.
-                </p>
 
+            {/* Right — Content (desktop: right, mobile: left) */}
+            <div className="col-12 col-lg-6 order-1 order-lg-2">
+              <div className="pwf-content h-100 d-flex flex-column justify-content-center px-3 px-lg-4 py-3 py-lg-2">
+                <h2 className="pwf-title">
+                  Modern Surgical Care for Lasting Spine Relief
+                </h2>
                 <p
-                  className="info-two"
-                  style={{ color: "black", fontSize: "16px" }}
+                  className="mb-2"
+                  style={{ fontSize: "16px", color: "black" }}
                 >
-                  Our pre-surgical consultations and care reflect our
-                  patient-centric approach. Our dedication to continuous
-                  progress and medical advancement enables us to provide our
-                  patients with the most advanced therapies and compassionate
-                  care, ensuring a speedy recovery and optimal results. Trust
-                  AdvancedCare Surgery Center to be your health partner, with
-                  every detail geared to improve your surgery and wellness.
+                  AdvancedCare Surgery Center is focused on delivering
+                  high-quality surgical care for spine conditions with
+                  precision, safety, and consistency. Our team follows a
+                  structured approach that prioritizes accurate diagnosis,
+                  advanced techniques, and patient-focused planning. Every
+                  procedure is designed to support better outcomes, reduce
+                  complications, and help individuals regain mobility through
+                  trusted and efficient surgical solutions with measurable
+                  progress.
                 </p>
-                <Link href="/appointment" className="btn btn-three">
-                  Schedule Appointment
-                </Link>
+                <p
+                  className="mb-2"
+                  style={{ fontSize: "16px", color: "black" }}
+                >
+                  We combine modern surgical technology with experienced
+                  clinical expertise so every patient receives dependable care
+                  at every stage. From evaluation to recovery, attention is
+                  given to detail, comfort, and long-term results. The goal is
+                  to restore function, reduce discomfort, and help patients
+                  return to daily activities with confidence through safe,
+                  controlled, and outcome-driven surgical care.
+                </p>
+                <p
+                  className="mb-2"
+                  style={{ fontSize: "16px", color: "black" }}
+                >
+                  Book Your Surgical Consultation Today.
+                </p>
+                <span>
+                  <Link href="/appointment" className="btn btn-three">
+                    Schedule Appointment
+                  </Link>
+                </span>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+
+      <style jsx>{`
+        .pwf-wrap {
+          font-family: Georgia;
+        }
+
+        .pwf-img-wrap {
+          position: relative;
+          min-height: 420px;
+        }
+
+        .pwf-title {
+          font-size: clamp(1.5rem, 3vw, 2.2rem);
+          font-weight: 700;
+          color: rgb(255, 8, 5);
+
+          margin-bottom: 10px;
+        }
+
+        .pwf-content {
+          border-left: 5px solid rgb(255, 8, 5);
+        }
+
+        @media (max-width: 991px) {
+          .pwf-img-wrap {
+            min-height: unset;
+            aspect-ratio: 16 / 9;
+          }
+          .pwf-content {
+            border-left: none;
+            border-top: 5px solid rgb(255, 8, 5);
+          }
+        }
+
+        @media (max-width: 576px) {
+          .pwf-img-wrap {
+            aspect-ratio: 4 / 3;
+          }
+        }
+      `}</style>
+    </>
   );
 }

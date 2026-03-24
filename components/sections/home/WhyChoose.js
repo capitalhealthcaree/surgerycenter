@@ -5,21 +5,33 @@ import { useEffect, useRef, useState } from "react";
 const features = [
   {
     id: 1,
-    title: "Expertise",
-    desc: "Our skilled professionals are committed to ensuring your safety, comfort, and successful recovery.",
+    title: "Experienced Surgical Team",
+    desc: "Advanced techniques are used by experienced specialists to deliver precision, safety, and consistent surgical outcomes.",
     icon: "/assets/img/expertise.png",
   },
   {
     id: 2,
-    title: "Advanced Facilities",
-    desc: "Experience cutting-edge technology in our modern and well-equipped surgical center.",
+    title: "Advanced Technology",
+    desc: "Modern equipment supports accurate diagnosis and minimally invasive procedures for better recovery.",
     icon: "/assets/img/advanced-facilities.png",
   },
   {
     id: 3,
-    title: "Convenience",
-    desc: "With procedures that do not require an overnight stay, we prioritize your convenience and provide a streamlined healthcare experience.",
+    title: "Patient-Focused Approach",
+    desc: "Every treatment plan is designed based on condition severity and individual recovery goals.",
     icon: "/assets/img/convenience.png",
+  },
+  {
+    id: 4,
+    title: "Comprehensive Care",
+    desc: "From consultation to recovery, each step is carefully managed for smooth patient experience.",
+    icon: "/assets/img/comprehensive-care.png",
+  },
+  {
+    id: 5,
+    title: "Outcome-Driven Results",
+    desc: "Focus remains on restoring function, reducing pain, and improving long-term mobility.",
+    icon: "/assets/img/outcome-driven-results.png",
   },
 ];
 
@@ -107,6 +119,7 @@ function FeatureCard({ feature, index }) {
 
       {/* desc */}
       <p
+        className="mb-3"
         style={{
           fontSize: "15px",
           fontWeight: "300",
@@ -202,7 +215,9 @@ export default function WhyChooseUs() {
               transition: "opacity 0.65s ease, transform 0.65s ease",
             }}
           >
-            <h2 className="why-heading pt-3">Why Choose Us?</h2>
+            <h2 className="why-heading pt-3">
+              Why Choose AdvancedCare Surgery Center
+            </h2>
           </div>
 
           {/* cards */}

@@ -139,14 +139,14 @@ export default function MeetDoctors() {
               <h2 className="fw-bold text-white fs-1 mb-2">
                 Meet our Surgical{" "}
                 <em className="fst-normal" style={{ color: "#ff0805" }}>
-                  Specialties
+                  Experts
                 </em>{" "}
-                in Dallas
               </h2>
               <p className="text-white mb-0" style={{ fontSize: "16px" }}>
-                Meet our experienced and dedicated team of professionals — pain
-                physicians and Surgical Specialties in Dallas, ready to serve
-                you with excellence and compassion.
+                Our team includes experienced spine surgeons and clinical
+                professionals committed to delivering precise surgical care.
+                Each member focuses on accuracy, safety, and achieving the best
+                possible outcomes for every patient.
               </p>
             </div>
           </div>

@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 
 export default function GoogleReviews() {
@@ -72,7 +71,6 @@ export default function GoogleReviews() {
       <div
         className="p-3"
         style={{
-          borderRadius: "16px",
           border: "2px solid #ff0805",
           marginBottom: "30px",
           fontFamily: "Georgia",
@@ -240,7 +238,7 @@ export default function GoogleReviews() {
                       marginTop: "8px",
                       background: "none",
                       border: "none",
-                      color: "rgb(36, 19, 95)",
+                      color: "rgb(255, 8, 5)",
                       fontSize: "14px",
                       fontWeight: "500",
                       cursor: "pointer",
@@ -254,24 +252,8 @@ export default function GoogleReviews() {
             );
           })}
         </div>
-        {/* {pathname !== "/reviews/" && (
-          <div className="text-center mt-3">
-            <a
-              className="btn px-4 py-2 fw-bold"
-              href="/reviews/"
-              style={{
-                backgroundColor: "rgb(36, 19, 95)",
-                borderRadius: "25px",
-                color: "#fff",
-              }}
-            >
-              View All
-            </a>
-          </div>
-        )} */}
       </div>
 
-      {/* ✅ Stable Responsive CSS (No Hydration Issues) */}
       <style jsx>{`
         .reviews-grid {
           display: grid;

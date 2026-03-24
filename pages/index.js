@@ -8,6 +8,7 @@ import Team from "@/components/sections/home/Team";
 import PathToRecovery from "@/components/sections/home/PathToRecovery";
 import Appointment from "@/components/sections/home/Appointment";
 import Reviews from "@/components/sections/home/Reviews";
+import CTA from "@/components/sections/home/CTA";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Procedures />
       <PathToRecovery />
       <Reviews />
+      <CTA />
     </Layout>
   );
 }

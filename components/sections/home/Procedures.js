@@ -3,7 +3,7 @@
 const procedures = [
   {
     title: "Minimally Invasive Spine Surgery",
-    desc: "Advanced techniques with smaller incisions, less pain, and faster recovery times.",
+    desc: "Small incisions reduce tissue damage, leading to faster recovery and minimal post-surgical pain.",
     icon: (
       <svg
         width="32"
@@ -22,7 +22,7 @@ const procedures = [
   },
   {
     title: "Spinal Fusion",
-    desc: "Stabilization procedure joining two or more vertebrae to eliminate painful motion.",
+    desc: "Joins vertebrae to stabilize spine, reducing pain caused by movement or instability issues.",
     icon: (
       <svg
         width="32"
@@ -44,7 +44,7 @@ const procedures = [
   },
   {
     title: "Laminectomy",
-    desc: "Decompression surgery removing bone to relieve pressure on spinal nerves.",
+    desc: "Removes part of vertebra to relieve pressure on spinal cord and affected nerves.",
     icon: (
       <svg
         width="32"
@@ -63,7 +63,7 @@ const procedures = [
   },
   {
     title: "Discectomy",
-    desc: "Removal of herniated disc material pressing on nerves causing pain.",
+    desc: "Removes damaged disc portion to reduce nerve compression and improve mobility and comfort.",
     icon: (
       <svg
         width="32"
@@ -83,7 +83,7 @@ const procedures = [
   },
   {
     title: "Kyphoplasty",
-    desc: "Minimally invasive procedure to restore vertebral height and relieve fracture pain.",
+    desc: "Restores vertebral height using bone cement, reducing pain from compression fractures effectively.",
     icon: (
       <svg
         width="32"
@@ -102,7 +102,7 @@ const procedures = [
   },
   {
     title: "Vertebroplasty",
-    desc: "Injection of bone cement to stabilize painful vertebral compression fractures.",
+    desc: "Injects cement into fractured vertebra, stabilizing bone and reducing severe pain quickly.",
     icon: (
       <svg
         width="32"
@@ -122,7 +122,7 @@ const procedures = [
   },
   {
     title: "Foraminotomy",
-    desc: "Enlarging the neural foramen to relieve pressure on compressed nerve roots.",
+    desc: "Enlarges nerve passageways to relieve pressure and improve nerve function and mobility.",
     icon: (
       <svg
         width="32"
@@ -142,7 +142,7 @@ const procedures = [
   },
   {
     title: "Spinal Decompression",
-    desc: "Procedures to relieve pressure on the spinal cord and nerve roots.",
+    desc: "Relieves pressure on spinal nerves to reduce pain and improve functional movement.",
     icon: (
       <svg
         width="32"
@@ -160,7 +160,7 @@ const procedures = [
   },
   {
     title: "Artificial Disc Replacement",
-    desc: "Motion-preserving alternative to fusion using advanced artificial discs.",
+    desc: "Replaces damaged disc to maintain spine motion and reduce chronic pain symptoms.",
     icon: (
       <svg
         width="32"
@@ -181,7 +181,7 @@ const procedures = [
   },
   {
     title: "Revision Spine Surgery",
-    desc: "Expert corrective procedures for patients requiring additional spine surgery.",
+    desc: "Corrects previous surgical outcomes to restore function and address ongoing complications effectively.",
     icon: (
       <svg
         width="32"
@@ -321,11 +321,13 @@ export default function SurgicalProcedures() {
         >
           <div className="sp-header">
             <h2>
-              Surgical <span>Procedures</span>
+              Advanced Surgical <span>Procedures</span>
             </h2>
-            <p>
-              State-of-the-art surgical techniques designed to minimize recovery
-              time and maximize patient outcomes.
+            <p style={{ maxWidth: "900px", margin: "0  auto 0" }}>
+              We offer a range of specialized spine surgeries designed to
+              address complex conditions with precision. Each procedure is
+              selected based on diagnosis, severity, and long-term recovery
+              goals.
             </p>
           </div>
 

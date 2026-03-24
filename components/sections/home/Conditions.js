@@ -3,7 +3,7 @@
 const conditions = [
   {
     title: "Herniated Disc",
-    desc: "Expert treatment for bulging or ruptured discs causing nerve compression and pain.",
+    desc: "Damaged disc presses nerves causing pain, numbness, and reduced mobility in affected areas.",
     icon: (
       <svg
         width="28"
@@ -23,7 +23,7 @@ const conditions = [
   },
   {
     title: "Spinal Stenosis",
-    desc: "Advanced care for narrowing of the spinal canal causing pressure on nerves.",
+    desc: "Narrowed spinal canal compresses nerves, leading to pain, weakness, and difficulty walking.",
     icon: (
       <svg
         width="28"
@@ -45,7 +45,7 @@ const conditions = [
   },
   {
     title: "Degenerative Disc Disease",
-    desc: "Comprehensive treatment for age-related disc degeneration and chronic pain.",
+    desc: "Disc wear reduces flexibility, causing chronic pain and limited spine movement over time.",
     icon: (
       <svg
         width="28"
@@ -65,7 +65,7 @@ const conditions = [
   },
   {
     title: "Scoliosis",
-    desc: "Specialized care for abnormal spinal curvature in adults and adolescents.",
+    desc: "Abnormal spine curvature affects posture, balance, and may lead to pain or breathing issues.",
     icon: (
       <svg
         width="28"
@@ -85,7 +85,7 @@ const conditions = [
   },
   {
     title: "Spinal Fractures",
-    desc: "Immediate treatment for vertebral compression and traumatic fractures.",
+    desc: "Broken vertebrae disrupt stability, often causing severe pain and reduced structural support.",
     icon: (
       <svg
         width="28"
@@ -105,7 +105,7 @@ const conditions = [
   },
   {
     title: "Sciatica",
-    desc: "Relief for radiating leg pain caused by sciatic nerve compression.",
+    desc: "Nerve compression causes radiating pain from lower back through legs, affecting daily movement.",
     icon: (
       <svg
         width="28"
@@ -124,7 +124,7 @@ const conditions = [
   },
   {
     title: "Failed Back Surgery",
-    desc: "Revision surgery expertise for patients with persistent pain after prior procedures.",
+    desc: "Persistent pain after surgery requires advanced evaluation and corrective surgical planning approaches.",
     icon: (
       <svg
         width="28"
@@ -145,7 +145,7 @@ const conditions = [
   },
   {
     title: "Spinal Tumors",
-    desc: "Surgical treatment for benign and malignant spinal cord tumors.",
+    desc: "Abnormal growths within the spine may affect nerves, stability, and overall neurological function.",
     icon: (
       <svg
         width="28"
@@ -164,7 +164,7 @@ const conditions = [
   },
   {
     title: "Spondylolisthesis",
-    desc: "Expert care for vertebral slippage causing instability and pain.",
+    desc: "Vertebra slips forward, causing instability, nerve pressure, and lower back pain symptoms.",
     icon: (
       <svg
         width="28"
@@ -185,7 +185,7 @@ const conditions = [
   },
   {
     title: "Kyphosis",
-    desc: "Treatment for excessive forward curvature of the spine.",
+    desc: "Excessive forward spine curvature leads to posture issues, stiffness, and functional limitations.",
     icon: (
       <svg
         width="28"
@@ -205,7 +205,7 @@ const conditions = [
   },
   {
     title: "Cervical Radiculopathy",
-    desc: "Relief for neck pain radiating into arms from nerve compression.",
+    desc: "Neck nerve compression causes pain, weakness, and tingling sensations in the arms region.",
     icon: (
       <svg
         width="28"
@@ -228,7 +228,7 @@ const conditions = [
   },
   {
     title: "Facet Joint Syndrome",
-    desc: "Targeted treatment for arthritis and inflammation of the spinal joints.",
+    desc: "Joint inflammation in spine leads to localized pain, stiffness, and restricted movement.",
     icon: (
       <svg
         width="28"
@@ -451,8 +451,9 @@ export default function ConditionsWetreat() {
               Conditions We <em>Treat</em>
             </h2>
             <p>
-              Comprehensive care for a wide range of spine conditions, from
-              common degenerative issues to complex surgical cases.
+              We treat a wide range of spine-related conditions that affect
+              movement, comfort, and daily life. Each condition is carefully
+              evaluated to determine the most effective surgical solution.
             </p>
           </div>
 

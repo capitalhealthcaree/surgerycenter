@@ -290,18 +290,16 @@ export default function HeroBanner() {
           {/* ─── LEFT ─── */}
           <div className="hero-left">
             <h1 className="hero-h1">
-              Advanced Spine Surgery for{" "}
-              <span className="red-word">Long-Term Pain</span> Relief
-              {/* <span className="red-word"> Head &amp; Neck </span>
-              Conditions */}
+              AdvancedCare Surgery Center for{" "}
+              <span className="red-word"> Spine</span> Excellence
             </h1>
 
             <p className="hero-desc">
-              Back and neck pain can limit your daily activities and overall
-              well-being. The expert surgical team at AdvancedCare Surgery
-              Center focuses on accurate diagnosis, minimally invasive spine
-              procedures, and personalized recovery plans to support safe
-              healing and lasting results.
+              AdvancedCare Surgery Center provides precise surgical solutions
+              for spine conditions using modern techniques, experienced
+              specialists, and a structured approach focused on safety, faster
+              recovery, and long-term results that help restore mobility and
+              improve overall quality of life.
             </p>
 
             <div className="btn-wrap">
