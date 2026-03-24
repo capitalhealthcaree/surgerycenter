@@ -18,7 +18,6 @@ export default function DoctorEducation({ educationData }) {
           font-size: clamp(1.5rem, 3vw, 2.2rem);
           font-weight: 700;
           color: rgb(255, 8, 5);
-          line-height: 1.2;
         }
         .edu-note {
           font-size: 16px;

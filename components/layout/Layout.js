@@ -39,7 +39,7 @@ export default function Layout({ headTitle, breadcrumbTitle, children }) {
   }, []);
   return (
     <>
-      <PageHead headTitle={headTitle} />
+      {/* <PageHead headTitle={headTitle} /> */}
       <DataBg />
 
       <Header

@@ -12,6 +12,7 @@ export default function RaoKAli() {
       "Dr. Rao Ali is a dual fellowship-trained, double board-certified Physiatrist and Interventional Pain Management physician providing expert care as a leading Pain Physician in Dallas and nearby areas including Richardson, Desoto, Gun Barrel City, Waxahachie, Cleburne, Plano, Ennis, Mesquite, Kaufman, and other parts of North Texas. With over eight years of experience running a state-of-the-art interventional pain management practice, Dr. Ali has become one of the most respected Dallas pain doctors near me, known for treating complex spine and nerve pain with precision and compassion.",
     img: "/assets/img/team/rao-k-ali.png",
     link: "/rao-k-ali-md-surgical-specialist-in-dallas",
+    certified: "Board Certified Interventional Pain Management",
   };
 
   const educationData = {

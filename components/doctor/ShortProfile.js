@@ -28,9 +28,7 @@ export default function DoctorIntro({ profileData }) {
             <div className="intro-header">
               <div>
                 <h2 className="intro-name">{profileData.name}</h2>
-                <p className="intro-title">
-                  Board Certified Interventional Pain Management
-                </p>
+                <p className="intro-title">{profileData.certified}</p>
               </div>
               <div className="intro-stats">
                 <div className="istat">

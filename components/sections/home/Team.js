@@ -13,6 +13,12 @@ const doctors = [
     img: "/assets/img/team/dr-christopher-creighton.png",
     link: "/dr-christopher-creighton",
   },
+  {
+    name: "Dr. Vudhi Slabisak, MD",
+    role: "Board Certified Orthopaedic Surgeon",
+    img: "/assets/img/team/dr-vudhi-slabisak-md.png",
+    link: "/dr-vudhi-slabisak-orthopedic-spine-surgeon",
+  },
 ];
 
 export default function MeetDoctors() {

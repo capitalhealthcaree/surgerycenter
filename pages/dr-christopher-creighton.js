@@ -11,6 +11,7 @@ export default function ChristopherCreighton() {
       "Dr. Christopher Creighton, is a highly respected pain doctor in Dallas with nearly 35 years of medical experience in anesthesiology, internal medicine, and pathology. At Premier Pain Centers, he provides advanced interventional treatments designed to restore comfort, improve mobility, and enhance quality of life for patients suffering from chronic pain. As a trusted pain specialist in Dallas, Dr. Creighton focuses on accurate diagnosis and personalized care. His approach blends medical innovation with precision, helping each patient receive the most effective treatment for their unique pain condition.",
     img: "/assets/img/team/dr-christopher-creighton.png",
     link: "/dr-christopher-creighton",
+    certified: "Board Certified Interventional Pain Management",
   };
 
   const educationData = {
@@ -31,8 +32,7 @@ export default function ChristopherCreighton() {
       "Multiple convenient North Texas locations for accessible care",
       "A caring, patient-first environment that prioritizes comfort and trust",
     ],
-    image:
-      "/assets/img/why-choose-dr-creighton.png",
+    image: "/assets/img/why-choose-dr-creighton.png",
   };
 
   return (
